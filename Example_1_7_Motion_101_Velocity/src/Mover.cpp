@@ -1,8 +1,8 @@
 #include "Mover.h"
 
 void Mover::setup() {
-  position = ofVec2f{ofRandomWidth(), ofRandomHeight()};
-  velocity = ofVec2f{ofRandom(-2, 2), ofRandom(-2, 2)};
+  position = ofVec2f(ofRandomWidth(), ofRandomHeight());
+  velocity = ofVec2f(ofRandom(-2, 2), ofRandom(-2, 2));
 }
 
 void Mover::update() { position += velocity; }

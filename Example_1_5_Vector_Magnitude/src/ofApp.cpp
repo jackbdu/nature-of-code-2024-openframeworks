@@ -9,7 +9,7 @@ void ofApp::update() { ofBackground(255); }
 //--------------------------------------------------------------
 void ofApp::draw() {
   ofVec2f mouse = ofVec2f(ofGetMouseX(), ofGetMouseY());
-  ofVec2f center = ofVec2f(ofGetWidth() / 2, ofGetHeight() / 2);
+  ofVec2f center = ofVec2f(ofGetWidth() * 0.5, ofGetHeight() * 0.5);
   mouse -= center;
 
   const float m = mouse.length();
