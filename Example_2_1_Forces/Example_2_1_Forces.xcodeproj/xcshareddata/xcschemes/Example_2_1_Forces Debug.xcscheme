@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-               BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-               ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+               BuildableName = "Example_2_1_Forces.app"
+               BlueprintName = "Example_2_1_Forces"
+               ReferencedContainer = "container:Example_2_1_Forces.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-            BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-            ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+            BuildableName = "Example_2_1_Forces.app"
+            BlueprintName = "Example_2_1_Forces"
+            ReferencedContainer = "container:Example_2_1_Forces.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-            BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-            ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+            BuildableName = "Example_2_1_Forces.app"
+            BlueprintName = "Example_2_1_Forces"
+            ReferencedContainer = "container:Example_2_1_Forces.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-            BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-            ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+            BuildableName = "Example_2_1_Forces.app"
+            BlueprintName = "Example_2_1_Forces"
+            ReferencedContainer = "container:Example_2_1_Forces.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
