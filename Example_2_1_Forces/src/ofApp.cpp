@@ -15,6 +15,7 @@ void ofApp::update() {
 
   mover.update();
   mover.checkEdges();
+
   ofBackground(255);
 }
 
