@@ -1,32 +1,83 @@
-# Prerequisites
-*.d
+###########################
+# ignore generated binaries
+# but not the data folder
+###########################
 
-# Compiled Object files
-*.slo
-*.lo
+/bin/*
+!/bin/data/
+
+#########
+# general
+#########
+
+[Bb]uild/
+[Oo]bj/
 *.o
-*.obj
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+########################
+# IDE files which should
+# be ignored
+########################
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+*.xccheckout
+xcuserdata/
 
-# Fortran module files
-*.mod
-*.smod
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
 
-# Executables
-*.exe
-*.out
-*.app
+# Android Studio
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+
+##################
+# operating system
+##################
+
+# Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Windows
+# Image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# Android
+.csettings
