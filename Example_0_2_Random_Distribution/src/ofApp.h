@@ -23,6 +23,6 @@ public:
   void dragEvent(ofDragInfo dragInfo) override;
   void gotMessage(ofMessage msg) override;
 
-  vector<float> randomCounts;
+  vector<int> randomCounts;
   int total;
 };
