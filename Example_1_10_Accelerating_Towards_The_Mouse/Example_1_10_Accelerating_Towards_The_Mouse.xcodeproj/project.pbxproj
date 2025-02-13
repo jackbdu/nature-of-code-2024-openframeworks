@@ -3,6 +3,10 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"07BB1FC8-355F-4557-A7F9-5257DDD0C196": {
+			"fileRef": "5D3084A6-891D-49BC-AD6F-8C12CC1E6A4B",
+			"isa": "PBXBuildFile"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -30,12 +34,12 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"A47CCCEA-6CB0-4122-9DE8-450D48D7FE53": {
-			"explicitFileType": "sourcecode.c.h",
+		"5D3084A6-891D-49BC-AD6F-8C12CC1E6A4B": {
+			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
+			"name": "Mover.cpp",
+			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -44,18 +48,6 @@
 			"name": "addons",
 			"path": "../../../addons",
 			"sourceTree": "<group>"
-		},
-		"C1201C91-B9BF-4737-A542-BACC097FEAD0": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.cpp",
-			"path": "src/Mover.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"C3116183-B96B-48D0-96D4-A4E42A6A2F29": {
-			"fileRef": "C1201C91-B9BF-4737-A542-BACC097FEAD0",
-			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"C3116183-B96B-48D0-96D4-A4E42A6A2F29"
+				"07BB1FC8-355F-4557-A7F9-5257DDD0C196"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -183,7 +175,7 @@
 			"buildRules": [],
 			"dependencies": [],
 			"isa": "PBXNativeTarget",
-			"name": "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration",
+			"name": "Example_1_10_Accelerating_Towards_The_Mouse",
 			"productName": "myOFApp",
 			"productReference": "E4B69B5B0A3A1756003C02F2",
 			"productType": "com.apple.product-type.application"
@@ -192,7 +184,7 @@
 			"explicitFileType": "wrapper.application",
 			"includeInIndex": "0",
 			"isa": "PBXFileReference",
-			"path": "Example_1_8_Motion_101_Velocity_And_Constant_AccelerationDebug.app",
+			"path": "Example_1_10_Accelerating_Towards_The_MouseDebug.app",
 			"sourceTree": "BUILT_PRODUCTS_DIR"
 		},
 		"E4B69B5F0A3A1757003C02F2": {
@@ -253,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"C1201C91-B9BF-4737-A542-BACC097FEAD0",
-				"A47CCCEA-6CB0-4122-9DE8-450D48D7FE53"
+				"5D3084A6-891D-49BC-AD6F-8C12CC1E6A4B",
+				"EE17C605-22BF-4874-963E-7E7BB2B7241A"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +305,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"EE17C605-22BF-4874-963E-7E7BB2B7241A": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

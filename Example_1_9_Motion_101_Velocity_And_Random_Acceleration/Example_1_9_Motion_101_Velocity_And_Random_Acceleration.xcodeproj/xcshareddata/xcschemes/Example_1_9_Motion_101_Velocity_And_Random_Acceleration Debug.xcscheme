@@ -15,15 +15,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-               BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-               ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+               BuildableName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration.app"
+               BlueprintName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration"
+               ReferencedContainer = "container:Example_1_9_Motion_101_Velocity_And_Random_Acceleration.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -31,16 +31,16 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-            BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-            ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+            BuildableName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration.app"
+            BlueprintName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration"
+            ReferencedContainer = "container:Example_1_9_Motion_101_Velocity_And_Random_Acceleration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -54,14 +54,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-            BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-            ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+            BuildableName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration.app"
+            BlueprintName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration"
+            ReferencedContainer = "container:Example_1_9_Motion_101_Velocity_And_Random_Acceleration.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -71,17 +71,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.app"
-            BlueprintName = "Example_1_8_Motion_101_Velocity_And_Constant_Acceleration"
-            ReferencedContainer = "container:Example_1_8_Motion_101_Velocity_And_Constant_Acceleration.xcodeproj">
+            BuildableName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration.app"
+            BlueprintName = "Example_1_9_Motion_101_Velocity_And_Random_Acceleration"
+            ReferencedContainer = "container:Example_1_9_Motion_101_Velocity_And_Random_Acceleration.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
