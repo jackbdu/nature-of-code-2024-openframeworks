@@ -11,7 +11,7 @@ void Walker::show() {
 }
 
 void Walker::step() {
-  const int choice = ofRandom(4);
+  const int choice = floor(ofRandom(4));
   if (choice == 0) {
     x++;
   } else if (choice == 1) {
