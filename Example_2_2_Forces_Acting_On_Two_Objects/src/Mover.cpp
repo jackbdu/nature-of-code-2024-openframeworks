@@ -41,7 +41,7 @@ void Mover::checkEdges() {
   }
 
   if (position.y > ofGetHeight()) {
-    velocity.y *= -1;
     position.y = ofGetHeight();
+    velocity.y *= -1;
   }
 }
