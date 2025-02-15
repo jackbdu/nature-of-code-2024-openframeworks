@@ -12,8 +12,9 @@ public:
   void handleHover(float mx, float my);
   void handleDrag(float mx, float my);
   void stopDragging();
-  ofVec2f attract(Mover mover, float G);
+  ofVec2f attract(Mover mover);
 
+  float G;
   float mass;
   ofVec2f position;
   ofVec2f dragOffset;

@@ -1,6 +1,7 @@
 #include "Attractor.h"
 
 void Attractor::setup() {
+  G = 1;
   mass = 20;
   position = ofVec2f(ofGetWidth() * 0.5, ofGetHeight() * 0.5);
   dragOffset = ofVec2f(0, 0);
@@ -8,7 +9,7 @@ void Attractor::setup() {
   rollover = false;
 }
 
-ofVec2f Attractor::attract(Mover mover, float G) {
+ofVec2f Attractor::attract(Mover mover) {
   ofVec2f force = position - mover.position;
   float distance = force.length();
   distance = ofClamp(distance, 5, 25);

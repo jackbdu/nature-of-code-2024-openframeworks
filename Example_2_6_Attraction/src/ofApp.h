@@ -27,6 +27,4 @@ public:
 
   Mover mover;
   Attractor attractor;
-
-  float G;
 };

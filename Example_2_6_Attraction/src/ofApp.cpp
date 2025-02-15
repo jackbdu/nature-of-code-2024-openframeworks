@@ -4,12 +4,11 @@
 void ofApp::setup() {
   mover.setup(300, 50, 2);
   attractor.setup();
-  G = 1;
 }
 
 //--------------------------------------------------------------
 void ofApp::update() {
-  const ofVec2f force = attractor.attract(mover, G);
+  const ofVec2f force = attractor.attract(mover);
   mover.applyForce(force);
   mover.update();
 
