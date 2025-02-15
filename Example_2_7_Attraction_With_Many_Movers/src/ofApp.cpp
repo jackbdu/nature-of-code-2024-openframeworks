@@ -44,14 +44,12 @@ void ofApp::mouseMoved(int x, int y) { attractor.handleHover(x, y); }
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button) {
-
   attractor.handleHover(x, y);
   attractor.handleDrag(x, y);
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button) {
-
   attractor.handlePress(x, y);
 }
 
