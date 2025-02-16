@@ -22,7 +22,6 @@ ofVec2f Attractor::attract(Mover mover) {
 
 void Attractor::show() {
   ofFill();
-  ofSetColor(0);
   if (dragging) {
     ofSetColor(50);
   } else if (rollover) {
