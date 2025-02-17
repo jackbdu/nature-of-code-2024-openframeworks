@@ -23,7 +23,7 @@ void Mover::update() {
 }
 
 void Mover::show() {
-  const float angle = ofVec2f{1, 0}.angleRad(velocity);
+  const float angle = ofVec2f(1, 0).angleRad(velocity);
 
   ofPushMatrix();
 
