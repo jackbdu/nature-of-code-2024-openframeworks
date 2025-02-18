@@ -11,3 +11,7 @@ The original JavaScript code examples can be found on [the Nature of Code's Exam
 3. Use the projectGenerator app in `of_v0.12.0_platform_release/projectGenerator/` to update each sketch folder (e.g. `Example_0_1_Random_Walk/`) before compiling and running it in your preferred IDE.
 
 _For additional guides, you can refer to the [openFrameworks learning page](https://openframeworks.cc/learning/)._
+
+## License
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Please see [the Nature of Code's Credits page](https://natureofcode.com/credits/) for details.
