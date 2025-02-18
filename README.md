@@ -2,6 +2,8 @@
 
 This repository is an **ongoing** effort to port code examples for Daniel Shiffman's book [the Nature of Code (2024 Edition)](https://natureofcode.com/) from JavaScript ([p5.js](https://p5js.org/)) to C++ ([openFrameworks](https://openframeworks.cc/)).
 
+The original JavaScript code examples can be found on [the Nature of Code's Examples page](https://natureofcode.com/examples/).
+
 ## How do I run these examples?
 
 1. Download openFrameworks v0.12.0 for your desired platform (e.g. `osx` for macOS) from the [openFrameworks download page](https://openframeworks.cc/download/) and unzip it. You should see a folder like `of_v0.12.0_platform_release/` (e.g. `of_v0.12.0_osx_release/` for macOS).
