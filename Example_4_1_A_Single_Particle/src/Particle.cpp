@@ -15,7 +15,7 @@ void Particle::update() {
 }
 
 void Particle::show() {
-  ofSetColor(0);
+  ofSetColor(0, lifespan);
   ofDrawCircle(position.x, position.y, 4);
 }
 
