@@ -1,10 +1,7 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup() {
-  particle.setup(ofGetWidth() * 0.5, 10);
-  ofBackground(255);
-}
+void ofApp::setup() { particle.setup(ofGetWidth() * 0.5, 20); }
 
 //--------------------------------------------------------------
 void ofApp::update() {
@@ -13,7 +10,8 @@ void ofApp::update() {
 
   if (particle.isDead()) {
     particle = Particle();
-    particle.setup(ofGetWidth() * 0.5, 10);
+    particle.setup(ofGetWidth() * 0.5, 20);
+
     ofLog() << "Particle dead!";
   }
 
