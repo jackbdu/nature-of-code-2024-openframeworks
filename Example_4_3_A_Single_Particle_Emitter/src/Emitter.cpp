@@ -16,6 +16,16 @@ void Emitter::update() {
       particles.erase(particles.begin() + i);
     }
   }
+
+  /*
+  for (vector<Particle>::iterator it = particles.begin(); it != particles.end();
+       ++it) {
+    (*it).update();
+  }
+
+  // https://openframeworks.cc//documentation/utils/ofUtils/#!show_ofRemove
+  ofRemove(particles, [](Particle &p) { return p.isDead(); });
+  */
 }
 
 void Emitter::show() {
