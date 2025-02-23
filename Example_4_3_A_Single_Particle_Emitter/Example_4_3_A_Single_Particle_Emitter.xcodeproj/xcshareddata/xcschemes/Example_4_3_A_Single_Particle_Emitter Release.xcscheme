@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Example_4_2_An_Array_Of_Particles.app"
-               BlueprintName = "Example_4_2_An_Array_Of_Particles"
-               ReferencedContainer = "container:Example_4_2_An_Array_Of_Particles.xcodeproj">
+               BuildableName = "Example_4_3_A_Single_Particle_Emitter.app"
+               BlueprintName = "Example_4_3_A_Single_Particle_Emitter"
+               ReferencedContainer = "container:Example_4_3_A_Single_Particle_Emitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_4_2_An_Array_Of_Particles.app"
-            BlueprintName = "Example_4_2_An_Array_Of_Particles"
-            ReferencedContainer = "container:Example_4_2_An_Array_Of_Particles.xcodeproj">
+            BuildableName = "Example_4_3_A_Single_Particle_Emitter.app"
+            BlueprintName = "Example_4_3_A_Single_Particle_Emitter"
+            ReferencedContainer = "container:Example_4_3_A_Single_Particle_Emitter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_4_2_An_Array_Of_Particles.app"
-            BlueprintName = "Example_4_2_An_Array_Of_Particles"
-            ReferencedContainer = "container:Example_4_2_An_Array_Of_Particles.xcodeproj">
+            BuildableName = "Example_4_3_A_Single_Particle_Emitter.app"
+            BlueprintName = "Example_4_3_A_Single_Particle_Emitter"
+            ReferencedContainer = "container:Example_4_3_A_Single_Particle_Emitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_4_2_An_Array_Of_Particles.app"
-            BlueprintName = "Example_4_2_An_Array_Of_Particles"
-            ReferencedContainer = "container:Example_4_2_An_Array_Of_Particles.xcodeproj">
+            BuildableName = "Example_4_3_A_Single_Particle_Emitter.app"
+            BlueprintName = "Example_4_3_A_Single_Particle_Emitter"
+            ReferencedContainer = "container:Example_4_3_A_Single_Particle_Emitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -3,6 +3,14 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"141292F0-5461-4991-AC8F-0EC0C5ACCAE4": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.cpp",
+			"path": "src/Particle.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -30,15 +38,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"53268B59-8D53-4699-B5E5-53B8B3696648": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Particle.cpp",
-			"path": "src/Particle.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"805FBD36-8129-454D-B23E-F68996F9690A": {
+		"1F9473F0-B882-455B-807A-948F12C79561": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -46,8 +46,8 @@
 			"path": "src/Particle.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"B2811C71-30F8-46F4-80BC-536733A927C9": {
-			"fileRef": "53268B59-8D53-4699-B5E5-53B8B3696648",
+		"296B0CCE-A8CB-4F2C-A675-D0E2288D31A6": {
+			"fileRef": "141292F0-5461-4991-AC8F-0EC0C5ACCAE4",
 			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -56,6 +56,14 @@
 			"name": "addons",
 			"path": "../../../addons",
 			"sourceTree": "<group>"
+		},
+		"DC125D95-C519-4585-BC8E-72154C4A630A": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Emitter.h",
+			"path": "src/Emitter.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +167,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"B2811C71-30F8-46F4-80BC-536733A927C9"
+				"EDC9F1D5-21C7-42FE-87B8-0DCA3B7A4D40",
+				"296B0CCE-A8CB-4F2C-A675-D0E2288D31A6"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -183,7 +192,7 @@
 			"buildRules": [],
 			"dependencies": [],
 			"isa": "PBXNativeTarget",
-			"name": "Example_4_2_An_Array_Of_Particles",
+			"name": "Example_4_3_A_Single_Particle_Emitter",
 			"productName": "myOFApp",
 			"productReference": "E4B69B5B0A3A1756003C02F2",
 			"productType": "com.apple.product-type.application"
@@ -192,7 +201,7 @@
 			"explicitFileType": "wrapper.application",
 			"includeInIndex": "0",
 			"isa": "PBXFileReference",
-			"path": "Example_4_2_An_Array_Of_ParticlesDebug.app",
+			"path": "Example_4_3_A_Single_Particle_EmitterDebug.app",
 			"sourceTree": "BUILT_PRODUCTS_DIR"
 		},
 		"E4B69B5F0A3A1757003C02F2": {
@@ -253,8 +262,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"53268B59-8D53-4699-B5E5-53B8B3696648",
-				"805FBD36-8129-454D-B23E-F68996F9690A"
+				"EF1A8F22-5386-41E5-8EB2-E023EA880261",
+				"DC125D95-C519-4585-BC8E-72154C4A630A",
+				"141292F0-5461-4991-AC8F-0EC0C5ACCAE4",
+				"1F9473F0-B882-455B-807A-948F12C79561"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +324,18 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"EDC9F1D5-21C7-42FE-87B8-0DCA3B7A4D40": {
+			"fileRef": "EF1A8F22-5386-41E5-8EB2-E023EA880261",
+			"isa": "PBXBuildFile"
+		},
+		"EF1A8F22-5386-41E5-8EB2-E023EA880261": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Emitter.cpp",
+			"path": "src/Emitter.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",
