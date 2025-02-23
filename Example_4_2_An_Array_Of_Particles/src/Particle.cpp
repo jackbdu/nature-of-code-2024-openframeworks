@@ -7,13 +7,10 @@ void Particle::setup(float x, float y) {
   lifespan = 255;
 }
 
-void Particle::run() {
+void Particle::update() {
   const ofVec2f gravity = ofVec2f(0, 0.05);
   applyForce(gravity);
-  update();
-}
 
-void Particle::update() {
   velocity += acceleration;
   position += velocity;
   lifespan -= 2;

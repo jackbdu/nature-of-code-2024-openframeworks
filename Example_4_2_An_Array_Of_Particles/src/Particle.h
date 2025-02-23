@@ -6,7 +6,6 @@
 class Particle {
 public:
   void setup(float x, float y);
-  void run();
   void update();
   void show();
   void applyForce(ofVec2f force);

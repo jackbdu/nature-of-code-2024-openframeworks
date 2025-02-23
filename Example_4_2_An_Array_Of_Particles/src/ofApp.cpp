@@ -11,7 +11,7 @@ void ofApp::update() {
 
   for (int i = particles.size() - 1; i >= 0; --i) {
     auto particle = &particles[i];
-    particle->run();
+    particle->update();
     if (particle->isDead()) {
       particles.erase(particles.begin() + i);
     }
