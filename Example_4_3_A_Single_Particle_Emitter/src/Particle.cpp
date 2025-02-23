@@ -21,11 +21,11 @@ void Particle::show() {
   ofSetLineWidth(2);
 
   ofFill();
-  ofSetColor(127);
+  ofSetColor(127, lifespan);
   ofDrawCircle(position.x, position.y, 4);
 
   ofNoFill();
-  ofSetColor(0);
+  ofSetColor(0, lifespan);
   ofDrawCircle(position.x, position.y, 4);
 }
 
