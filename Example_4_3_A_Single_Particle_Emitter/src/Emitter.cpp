@@ -18,9 +18,8 @@ void Emitter::update() {
   }
 
   /*
-  for (vector<Particle>::iterator it = particles.begin(); it != particles.end();
-       ++it) {
-    (*it).update();
+  for (Particle &particle : particles) {
+    particle.update();
   }
 
   // https://openframeworks.cc//documentation/utils/ofUtils/#!show_ofRemove
