@@ -9,7 +9,6 @@ void Particle::setup(float x, float y) {
   lifespan = 100;
 
   img.load("texture.png");
-  fbo.allocate(img.getWidth(), img.getHeight(), GL_RGBA);
 }
 
 void Particle::update() {
@@ -21,17 +20,9 @@ void Particle::update() {
 }
 
 void Particle::show() {
-  fbo.begin();
-  ofClear(0);
-  ofDisableBlendMode();
-  img.draw(0, 0);
-  ofEnableBlendMode(OF_BLENDMODE_SUBTRACT);
-  ofSetColor(0, 255 - lifespan);
-  ofDrawRectangle(0, 0, img.getWidth(), img.getHeight());
-  fbo.end();
-
-  fbo.setAnchorPercent(0.5, 0.5);
-  fbo.draw(position.x, position.y);
+  ofSetColor(255, lifespan);
+  img.setAnchorPercent(0.5, 0.5);
+  img.draw(position.x, position.y);
 }
 
 void Particle::applyForce(ofVec2f force) { acceleration += force; }

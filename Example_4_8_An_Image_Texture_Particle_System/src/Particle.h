@@ -11,7 +11,6 @@ public:
   void applyForce(ofVec2f force);
   bool isDead();
 
-  ofFbo fbo;
   ofImage img;
   ofVec2f position;
   ofVec2f velocity;
