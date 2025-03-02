@@ -2,7 +2,7 @@
  * Code example for The Nature of Code (2024 Edition)
  * (https://natureofcode.com/)
  * Ported from p5.js by Jack B. Du
- * (https://github.com/jackbdu)
+ * (https://github.com/jackbdu/nature-of-code-2024-openframeworks)
  */
 
 #include "ofApp.h"
