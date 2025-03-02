@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Example_5_4_Flow-Field_Following.app"
-               BlueprintName = "Example_5_4_Flow-Field_Following"
-               ReferencedContainer = "container:Example_5_4_Flow-Field_Following.xcodeproj">
+               BuildableName = "Example_5_4_Flow_Field_Following.app"
+               BlueprintName = "Example_5_4_Flow_Field_Following"
+               ReferencedContainer = "container:Example_5_4_Flow_Field_Following.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_5_4_Flow-Field_Following.app"
-            BlueprintName = "Example_5_4_Flow-Field_Following"
-            ReferencedContainer = "container:Example_5_4_Flow-Field_Following.xcodeproj">
+            BuildableName = "Example_5_4_Flow_Field_Following.app"
+            BlueprintName = "Example_5_4_Flow_Field_Following"
+            ReferencedContainer = "container:Example_5_4_Flow_Field_Following.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_5_4_Flow-Field_Following.app"
-            BlueprintName = "Example_5_4_Flow-Field_Following"
-            ReferencedContainer = "container:Example_5_4_Flow-Field_Following.xcodeproj">
+            BuildableName = "Example_5_4_Flow_Field_Following.app"
+            BlueprintName = "Example_5_4_Flow_Field_Following"
+            ReferencedContainer = "container:Example_5_4_Flow_Field_Following.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_5_4_Flow-Field_Following.app"
-            BlueprintName = "Example_5_4_Flow-Field_Following"
-            ReferencedContainer = "container:Example_5_4_Flow-Field_Following.xcodeproj">
+            BuildableName = "Example_5_4_Flow_Field_Following.app"
+            BlueprintName = "Example_5_4_Flow_Field_Following"
+            ReferencedContainer = "container:Example_5_4_Flow_Field_Following.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

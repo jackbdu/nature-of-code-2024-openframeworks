@@ -3,12 +3,12 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"0A956C68-66E5-4922-A80C-103F7B43A0B5": {
-			"explicitFileType": "sourcecode.cpp.cpp",
+		"09220DF0-6AED-475C-A50E-D726243E349B": {
+			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Vehicle.cpp",
-			"path": "src/Vehicle.cpp",
+			"name": "FlowField.h",
+			"path": "src/FlowField.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"191CD6FA2847E21E0085CBB6": {
@@ -38,12 +38,16 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"7C4DAF5E-914B-4803-92A8-056328FACD7F": {
-			"explicitFileType": "sourcecode.c.h",
+		"38B5876A-8BCF-403C-9870-07B9C61A09D6": {
+			"fileRef": "93F4297B-2C4F-4C4E-B4AA-AFD04FEA4CCC",
+			"isa": "PBXBuildFile"
+		},
+		"93F4297B-2C4F-4C4E-B4AA-AFD04FEA4CCC": {
+			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Vehicle.h",
-			"path": "src/Vehicle.h",
+			"name": "FlowField.cpp",
+			"path": "src/FlowField.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -53,9 +57,21 @@
 			"path": "../../../addons",
 			"sourceTree": "<group>"
 		},
-		"CFA6F684-1263-4D97-A0CD-A225BED278AA": {
-			"fileRef": "0A956C68-66E5-4922-A80C-103F7B43A0B5",
-			"isa": "PBXBuildFile"
+		"D71883EE-43C4-42B1-852B-6C0B34ECC288": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.h",
+			"path": "src/Vehicle.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E3236346-7DAA-442A-A329-0D8B9F2128AE": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.cpp",
+			"path": "src/Vehicle.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +175,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"CFA6F684-1263-4D97-A0CD-A225BED278AA"
+				"38B5876A-8BCF-403C-9870-07B9C61A09D6",
+				"E5922D26-720A-4F6D-9D6D-EEA32F16582A"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -183,7 +200,7 @@
 			"buildRules": [],
 			"dependencies": [],
 			"isa": "PBXNativeTarget",
-			"name": "Example_5_4_Flow-Field_Following",
+			"name": "Example_5_4_Flow_Field_Following",
 			"productName": "myOFApp",
 			"productReference": "E4B69B5B0A3A1756003C02F2",
 			"productType": "com.apple.product-type.application"
@@ -192,7 +209,7 @@
 			"explicitFileType": "wrapper.application",
 			"includeInIndex": "0",
 			"isa": "PBXFileReference",
-			"path": "Example_5_4_Flow-Field_FollowingDebug.app",
+			"path": "Example_5_4_Flow_Field_FollowingDebug.app",
 			"sourceTree": "BUILT_PRODUCTS_DIR"
 		},
 		"E4B69B5F0A3A1757003C02F2": {
@@ -253,8 +270,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"0A956C68-66E5-4922-A80C-103F7B43A0B5",
-				"7C4DAF5E-914B-4803-92A8-056328FACD7F"
+				"93F4297B-2C4F-4C4E-B4AA-AFD04FEA4CCC",
+				"09220DF0-6AED-475C-A50E-D726243E349B",
+				"E3236346-7DAA-442A-A329-0D8B9F2128AE",
+				"D71883EE-43C4-42B1-852B-6C0B34ECC288"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +332,10 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"E5922D26-720A-4F6D-9D6D-EEA32F16582A": {
+			"fileRef": "E3236346-7DAA-442A-A329-0D8B9F2128AE",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",
