@@ -7,7 +7,7 @@ void Path::setup() {
 }
 
 void Path::show() {
-  ofSetColor(0, 100);
+  ofSetColor(150);
   drawThickLine(start, end, radius * 2);
 
   ofSetLineWidth(1);
@@ -15,12 +15,14 @@ void Path::show() {
   ofDrawLine(start.x, start.y, end.x, end.y);
 }
 
-// todo: find alternative solution
 void Path::drawThickLine(ofVec2f start, ofVec2f end, float lineWidth) {
   const ofVec2f line = end - start;
   const float length = line.length();
   const float angle = ofVec2f(1, 0).angleRad(line);
   const ofVec2f center = (start + end) * 0.5;
+
+  ofDrawCircle(start.x, start.y, lineWidth * 0.5);
+  ofDrawCircle(end.x, end.y, lineWidth * 0.5);
 
   ofPushMatrix();
 
