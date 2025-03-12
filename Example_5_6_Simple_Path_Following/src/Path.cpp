@@ -8,9 +8,11 @@ void Path::setup() {
 
 void Path::show() {
   ofSetColor(0, 50);
+  ofFill();
   drawThickLine(start, end, radius * 2);
 
   ofSetLineWidth(1);
+  ofNoFill();
   ofSetColor(0);
   ofDrawLine(start.x, start.y, end.x, end.y);
 }

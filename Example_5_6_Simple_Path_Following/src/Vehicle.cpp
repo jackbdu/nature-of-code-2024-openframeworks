@@ -105,7 +105,7 @@ void Vehicle::show(Path path, bool debug) {
     ofFill();
     if (distance > path.radius)
       ofSetColor(255, 0, 0);
-    ofDrawCircle(target.x + b.x, target.y + b.y, 4);
+    ofDrawCircle(target.x + targetVector.x, target.y + targetVector.y, 4);
   }
 }
 
