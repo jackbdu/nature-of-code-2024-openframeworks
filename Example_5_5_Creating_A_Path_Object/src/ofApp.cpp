@@ -1,11 +1,7 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup() {
-  path.setup();
-  ofEnableSmoothing();
-  glEnable(GL_LINE_SMOOTH);
-}
+void ofApp::setup() { path.setup(); }
 
 //--------------------------------------------------------------
 void ofApp::update() { ofBackground(255); }
