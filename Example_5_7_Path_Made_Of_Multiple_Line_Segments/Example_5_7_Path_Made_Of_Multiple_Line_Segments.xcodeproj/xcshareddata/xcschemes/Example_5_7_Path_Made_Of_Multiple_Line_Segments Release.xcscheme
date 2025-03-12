@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Example_5_5_Creating_A_Path_Object.app"
-               BlueprintName = "Example_5_5_Creating_A_Path_Object"
-               ReferencedContainer = "container:Example_5_5_Creating_A_Path_Object.xcodeproj">
+               BuildableName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments.app"
+               BlueprintName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments"
+               ReferencedContainer = "container:Example_5_7_Path_Made_Of_Multiple_Line_Segments.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_5_5_Creating_A_Path_Object.app"
-            BlueprintName = "Example_5_5_Creating_A_Path_Object"
-            ReferencedContainer = "container:Example_5_5_Creating_A_Path_Object.xcodeproj">
+            BuildableName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments.app"
+            BlueprintName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments"
+            ReferencedContainer = "container:Example_5_7_Path_Made_Of_Multiple_Line_Segments.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_5_5_Creating_A_Path_Object.app"
-            BlueprintName = "Example_5_5_Creating_A_Path_Object"
-            ReferencedContainer = "container:Example_5_5_Creating_A_Path_Object.xcodeproj">
+            BuildableName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments.app"
+            BlueprintName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments"
+            ReferencedContainer = "container:Example_5_7_Path_Made_Of_Multiple_Line_Segments.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Example_5_5_Creating_A_Path_Object.app"
-            BlueprintName = "Example_5_5_Creating_A_Path_Object"
-            ReferencedContainer = "container:Example_5_5_Creating_A_Path_Object.xcodeproj">
+            BuildableName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments.app"
+            BlueprintName = "Example_5_7_Path_Made_Of_Multiple_Line_Segments"
+            ReferencedContainer = "container:Example_5_7_Path_Made_Of_Multiple_Line_Segments.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

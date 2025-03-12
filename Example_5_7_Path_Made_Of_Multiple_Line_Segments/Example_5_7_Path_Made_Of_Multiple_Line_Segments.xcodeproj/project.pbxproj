@@ -30,16 +30,24 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"5B41B0EF-3905-4E24-A8C2-877A0A26BC78": {
+		"334AF7F9-615E-439D-BAC9-2CEB7F2EE0AC": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Path.cpp",
+			"path": "src/Path.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"5799A8FF-F9B1-4E30-9013-5E5E8DD52FBC": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Vehicle.h",
-			"path": "src/Vehicle.h",
+			"name": "Path.h",
+			"path": "src/Path.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"8AFD5CF2-4AD7-4BB7-AC41-16B319332C0C": {
-			"fileRef": "E21553C0-7BD8-47AB-AF9F-6A2043C0C932",
+		"B62C94EE-28CE-4436-A0E1-CB6B73ABF777": {
+			"fileRef": "334AF7F9-615E-439D-BAC9-2CEB7F2EE0AC",
 			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -48,14 +56,6 @@
 			"name": "addons",
 			"path": "../../../addons",
 			"sourceTree": "<group>"
-		},
-		"E21553C0-7BD8-47AB-AF9F-6A2043C0C932": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Vehicle.cpp",
-			"path": "src/Vehicle.cpp",
-			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"8AFD5CF2-4AD7-4BB7-AC41-16B319332C0C"
+				"B62C94EE-28CE-4436-A0E1-CB6B73ABF777"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -183,7 +183,7 @@
 			"buildRules": [],
 			"dependencies": [],
 			"isa": "PBXNativeTarget",
-			"name": "Example_5_5_Creating_A_Path_Object",
+			"name": "Example_5_7_Path_Made_Of_Multiple_Line_Segments",
 			"productName": "myOFApp",
 			"productReference": "E4B69B5B0A3A1756003C02F2",
 			"productType": "com.apple.product-type.application"
@@ -192,7 +192,7 @@
 			"explicitFileType": "wrapper.application",
 			"includeInIndex": "0",
 			"isa": "PBXFileReference",
-			"path": "Example_5_5_Creating_A_Path_ObjectDebug.app",
+			"path": "Example_5_7_Path_Made_Of_Multiple_Line_SegmentsDebug.app",
 			"sourceTree": "BUILT_PRODUCTS_DIR"
 		},
 		"E4B69B5F0A3A1757003C02F2": {
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"E21553C0-7BD8-47AB-AF9F-6A2043C0C932",
-				"5B41B0EF-3905-4E24-A8C2-877A0A26BC78"
+				"334AF7F9-615E-439D-BAC9-2CEB7F2EE0AC",
+				"5799A8FF-F9B1-4E30-9013-5E5E8DD52FBC"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
