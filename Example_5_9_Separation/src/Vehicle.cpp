@@ -12,7 +12,7 @@ void Vehicle::setup(float x, float y) {
 void Vehicle::applyForce(ofVec2f force) { acceleration += force; }
 
 void Vehicle::separate(vector<Vehicle *> vehicles) {
-  const float desiredSeparation = r * 4;
+  const float desiredSeparation = r * 2;
   ofVec2f sum;
   int count = 0;
   for (auto other : vehicles) {
