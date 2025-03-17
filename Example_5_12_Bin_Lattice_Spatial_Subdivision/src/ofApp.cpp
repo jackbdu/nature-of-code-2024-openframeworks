@@ -40,8 +40,6 @@ void ofApp::update() {
   }
 
   flock.update(&grid, resolution);
-
-  ofSetWindowTitle(ofToString(ofGetFrameRate()));
 }
 
 //--------------------------------------------------------------
