@@ -6,11 +6,11 @@ void Box::setup(ofxBox2d *box2d, float x, float y) {
 
   shape = make_shared<ofxBox2dRect>();
   shape->setDensity(1);
-  shape->setFriction(0.1);
+  shape->setFriction(0.2);
   shape->setBounce(0.6);
   shape->setup(box2d->getWorld(), x, y, w, h);
   shape->setVelocity(ofRandom(-5, 5), 0);
-  shape->body->SetAngularVelocity(0.1);
+  shape->body->SetAngularVelocity(2.5);
 };
 
 void Box::show() {
