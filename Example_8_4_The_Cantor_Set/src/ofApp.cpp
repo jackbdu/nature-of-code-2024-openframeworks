@@ -1,7 +1,7 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup() { ofSetFrameRate(0); }
+void ofApp::setup() {}
 
 //--------------------------------------------------------------
 void ofApp::update() { ofBackground(255); }

@@ -1,10 +1,7 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup() {
-  ofSetFrameRate(0);
-  ofSetCircleResolution(100);
-}
+void ofApp::setup() { ofSetCircleResolution(100); }
 
 //--------------------------------------------------------------
 void ofApp::update() { ofBackground(255); }
