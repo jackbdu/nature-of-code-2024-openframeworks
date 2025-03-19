@@ -17,6 +17,12 @@ void ofApp::setup() {
 
 //--------------------------------------------------------------
 void ofApp::update() {
+  for (int i = 0; i < columns; ++i) {
+    for (int j = 0; j < rows; ++j) {
+      board[i][j].previous = board[i][j].state;
+    }
+  }
+
   for (int x = 1; x < columns - 1; ++x) {
     for (int y = 1; y < rows - 1; ++y) {
       int neighborSum = 0;
@@ -43,7 +49,6 @@ void ofApp::draw() {
   for (int i = 0; i < columns; ++i) {
     for (int j = 0; j < rows; ++j) {
       board[i][j].show();
-      board[i][j].previous = board[i][j].state;
     }
   }
 }
