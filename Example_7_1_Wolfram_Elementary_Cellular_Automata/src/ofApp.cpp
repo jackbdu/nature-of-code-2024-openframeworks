@@ -20,6 +20,9 @@ void ofApp::setup() {
 
 //--------------------------------------------------------------
 void ofApp::update() {
+  if (generation * w > ofGetHeight())
+    return;
+
   // skips first few frames (temporary fix to ensure first few lines are
   // rendered properly)
   if (ofGetFrameNum() > 8) {
@@ -33,14 +36,13 @@ void ofApp::update() {
 
     ++generation;
   }
-
-  if (generation * w > ofGetHeight()) {
-    ofSetFrameRate(0);
-  }
 }
 
 //--------------------------------------------------------------
 void ofApp::draw() {
+  if (generation * w > ofGetHeight())
+    return;
+
   for (int i = 1; i < cells.size() - 1; ++i) {
     if (cells[i] == 1) {
       ofFill();
