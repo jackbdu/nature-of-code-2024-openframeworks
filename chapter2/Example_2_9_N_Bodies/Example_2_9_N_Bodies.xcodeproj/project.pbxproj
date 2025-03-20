@@ -3,6 +3,10 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"003800D4-2AC8-4280-9206-E6264B7E7633": {
+			"fileRef": "66057977-97A2-401E-97C9-4DE4AD3858FA",
+			"isa": "PBXBuildFile"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -14,7 +18,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,11 +34,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"2AC66C41-BD6E-4181-AC08-3637D7275BD9": {
-			"fileRef": "7AFC0F97-BE6B-4F96-B500-E6CDBFA440B2",
-			"isa": "PBXBuildFile"
-		},
-		"7AFC0F97-BE6B-4F96-B500-E6CDBFA440B2": {
+		"66057977-97A2-401E-97C9-4DE4AD3858FA": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -42,20 +42,20 @@
 			"path": "src/Body.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"B38BF080-610A-461D-ACA3-89D92058812C": {
+		"BB4B014C10F69532006C3DED": {
+			"children": [],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../../addons",
+			"sourceTree": "<group>"
+		},
+		"DEB49FED-A516-49F8-86BC-2D1920FCC929": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Body.h",
 			"path": "src/Body.h",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"BB4B014C10F69532006C3DED": {
-			"children": [],
-			"isa": "PBXGroup",
-			"name": "addons",
-			"path": "../../../addons",
-			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"2AC66C41-BD6E-4181-AC08-3637D7275BD9"
+				"003800D4-2AC8-4280-9206-E6264B7E7633"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"7AFC0F97-BE6B-4F96-B500-E6CDBFA440B2",
-				"B38BF080-610A-461D-ACA3-89D92058812C"
+				"66057977-97A2-401E-97C9-4DE4AD3858FA",
+				"DEB49FED-A516-49F8-86BC-2D1920FCC929"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

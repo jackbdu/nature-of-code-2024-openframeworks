@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,31 +30,23 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"A0234CC7-A6CD-4569-8B79-5C76317E088F": {
-			"fileRef": "BAD2D970-C7B7-4788-BBE5-D0A4A7A1DDD5",
-			"isa": "PBXBuildFile"
-		},
-		"A3B8F2F7-B764-4F10-BE31-280EF48ECAD7": {
+		"54E90F86-A7E4-4C30-8CFE-40A9B2C72A99": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Particle.h",
-			"path": "src/Particle.h",
+			"name": "Vehicle.h",
+			"path": "src/Vehicle.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"BAD2D970-C7B7-4788-BBE5-D0A4A7A1DDD5": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Particle.cpp",
-			"path": "src/Particle.cpp",
-			"sourceTree": "SOURCE_ROOT"
+		"7E5EF4F3-A997-4ECE-B909-7C9BD4E7364E": {
+			"fileRef": "EB583D9D-E7D6-451E-928D-30E765EC1F52",
+			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -159,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"A0234CC7-A6CD-4569-8B79-5C76317E088F"
+				"7E5EF4F3-A997-4ECE-B909-7C9BD4E7364E"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"BAD2D970-C7B7-4788-BBE5-D0A4A7A1DDD5",
-				"A3B8F2F7-B764-4F10-BE31-280EF48ECAD7"
+				"EB583D9D-E7D6-451E-928D-30E765EC1F52",
+				"54E90F86-A7E4-4C30-8CFE-40A9B2C72A99"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +305,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"EB583D9D-E7D6-451E-928D-30E765EC1F52": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.cpp",
+			"path": "src/Vehicle.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

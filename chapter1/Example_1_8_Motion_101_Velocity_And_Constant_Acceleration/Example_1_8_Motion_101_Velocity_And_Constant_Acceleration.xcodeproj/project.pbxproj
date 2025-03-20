@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,22 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"A47CCCEA-6CB0-4122-9DE8-450D48D7FE53": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"BB4B014C10F69532006C3DED": {
-			"children": [],
-			"isa": "PBXGroup",
-			"name": "addons",
-			"path": "../../../addons",
-			"sourceTree": "<group>"
-		},
-		"C1201C91-B9BF-4737-A542-BACC097FEAD0": {
+		"1FACA41C-0F6D-451F-80A5-7C2D42D9E27E": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -53,9 +38,16 @@
 			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"C3116183-B96B-48D0-96D4-A4E42A6A2F29": {
-			"fileRef": "C1201C91-B9BF-4737-A542-BACC097FEAD0",
+		"A0E51588-789F-4800-BE3F-A1293CD81C58": {
+			"fileRef": "1FACA41C-0F6D-451F-80A5-7C2D42D9E27E",
 			"isa": "PBXBuildFile"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../../addons",
+			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"C3116183-B96B-48D0-96D4-A4E42A6A2F29"
+				"A0E51588-789F-4800-BE3F-A1293CD81C58"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"C1201C91-B9BF-4737-A542-BACC097FEAD0",
-				"A47CCCEA-6CB0-4122-9DE8-450D48D7FE53"
+				"1FACA41C-0F6D-451F-80A5-7C2D42D9E27E",
+				"FD94B09D-C852-4414-9E21-E513A3ABE947"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +305,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"FD94B09D-C852-4414-9E21-E513A3ABE947": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

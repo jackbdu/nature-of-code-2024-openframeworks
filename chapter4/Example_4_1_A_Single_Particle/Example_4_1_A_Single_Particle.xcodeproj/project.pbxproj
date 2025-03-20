@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,23 +30,15 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"1A322B44-5294-4B9C-8876-97650FDECB1B": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Walker.h",
-			"path": "src/Walker.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"600FA456-CA28-4397-A171-19C5397629A6": {
-			"fileRef": "E4E2A23A-E34E-4551-BC38-33FB0D4B891A",
+		"814E020E-665F-4BBA-AB02-C9C8B774A622": {
+			"fileRef": "F300BBFB-4F41-47BE-B076-E87281B1ABB6",
 			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -151,7 +143,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"600FA456-CA28-4397-A171-19C5397629A6"
+				"814E020E-665F-4BBA-AB02-C9C8B774A622"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -245,8 +237,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"E4E2A23A-E34E-4551-BC38-33FB0D4B891A",
-				"1A322B44-5294-4B9C-8876-97650FDECB1B"
+				"F300BBFB-4F41-47BE-B076-E87281B1ABB6",
+				"F28BDEDD-AAF3-437B-8E5E-AE9998408784"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -299,20 +291,28 @@
 			"isa": "PBXCopyFilesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
 		},
-		"E4E2A23A-E34E-4551-BC38-33FB0D4B891A": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Walker.cpp",
-			"path": "src/Walker.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
 		"E4EB6923138AFD0F00A09F29": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"F28BDEDD-AAF3-437B-8E5E-AE9998408784": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.h",
+			"path": "src/Particle.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F300BBFB-4F41-47BE-B076-E87281B1ABB6": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.cpp",
+			"path": "src/Particle.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

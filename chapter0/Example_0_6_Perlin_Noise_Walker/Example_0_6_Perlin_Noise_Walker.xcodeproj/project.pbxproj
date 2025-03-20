@@ -3,8 +3,8 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"11D87E46-B0CE-4C7A-9AC6-0C760A8B965A": {
-			"fileRef": "96944811-6710-4FF0-A541-09CDFCC25AF8",
+		"0F332B75-E688-4C55-ABF0-0FCA82588F63": {
+			"fileRef": "CB8678BC-3FEC-48D9-9DD4-3086A57425D5",
 			"isa": "PBXBuildFile"
 		},
 		"191CD6FA2847E21E0085CBB6": {
@@ -18,7 +18,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -34,20 +34,20 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"96944811-6710-4FF0-A541-09CDFCC25AF8": {
+		"BB4B014C10F69532006C3DED": {
+			"children": [],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../../addons",
+			"sourceTree": "<group>"
+		},
+		"CB8678BC-3FEC-48D9-9DD4-3086A57425D5": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Walker.cpp",
 			"path": "src/Walker.cpp",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"BB4B014C10F69532006C3DED": {
-			"children": [],
-			"isa": "PBXGroup",
-			"name": "addons",
-			"path": "../../../addons",
-			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -151,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"11D87E46-B0CE-4C7A-9AC6-0C760A8B965A"
+				"0F332B75-E688-4C55-ABF0-0FCA82588F63"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -245,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"96944811-6710-4FF0-A541-09CDFCC25AF8",
-				"E8CC076C-C919-442A-9241-6E33A58727DD"
+				"CB8678BC-3FEC-48D9-9DD4-3086A57425D5",
+				"FA75C0D5-A125-4984-A9D6-AA6B5E520BA4"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -306,7 +306,7 @@
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
 		},
-		"E8CC076C-C919-442A-9241-6E33A58727DD": {
+		"FA75C0D5-A125-4984-A9D6-AA6B5E520BA4": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",

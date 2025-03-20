@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,32 +30,24 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"21FF2F56-D9D6-4B30-AA70-656DE09C47B8": {
+		"3D740D7F-4443-4F6D-8B38-E82029A699A6": {
+			"fileRef": "EDD59425-08E7-402E-8534-C27969140210",
+			"isa": "PBXBuildFile"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../../addons",
+			"sourceTree": "<group>"
+		},
+		"CA95D2D6-B973-4CB6-A13C-58F44FB89F78": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Pendulum.h",
 			"path": "src/Pendulum.h",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"489E40B3-4749-4203-BC7A-DF86F5F03CCF": {
-			"fileRef": "6A998CFA-ED5C-4007-B71D-8934656AF73E",
-			"isa": "PBXBuildFile"
-		},
-		"6A998CFA-ED5C-4007-B71D-8934656AF73E": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Pendulum.cpp",
-			"path": "src/Pendulum.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"BB4B014C10F69532006C3DED": {
-			"children": [],
-			"isa": "PBXGroup",
-			"name": "addons",
-			"path": "../../../addons",
-			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"489E40B3-4749-4203-BC7A-DF86F5F03CCF"
+				"3D740D7F-4443-4F6D-8B38-E82029A699A6"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"6A998CFA-ED5C-4007-B71D-8934656AF73E",
-				"21FF2F56-D9D6-4B30-AA70-656DE09C47B8"
+				"EDD59425-08E7-402E-8534-C27969140210",
+				"CA95D2D6-B973-4CB6-A13C-58F44FB89F78"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +305,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"EDD59425-08E7-402E-8534-C27969140210": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Pendulum.cpp",
+			"path": "src/Pendulum.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

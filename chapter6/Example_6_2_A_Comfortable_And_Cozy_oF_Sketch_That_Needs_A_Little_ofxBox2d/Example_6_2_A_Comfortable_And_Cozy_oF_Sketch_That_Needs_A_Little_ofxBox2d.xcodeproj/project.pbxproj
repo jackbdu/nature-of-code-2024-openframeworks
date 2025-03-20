@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,11 +30,31 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
+		"5DC966D5-3131-4AC2-B934-159D20D116A7": {
+			"fileRef": "A902F4AC-D85A-4FEC-BB00-D88217C21740",
+			"isa": "PBXBuildFile"
+		},
+		"A5C25206-19E6-4E56-9585-3765ED8A9A00": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Box.h",
+			"path": "src/Box.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A902F4AC-D85A-4FEC-BB00-D88217C21740": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Box.cpp",
+			"path": "src/Box.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -138,7 +158,8 @@
 			"buildActionMask": "2147483647",
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
-				"E4B69E210A3A1BDC003C02F2"
+				"E4B69E210A3A1BDC003C02F2",
+				"5DC966D5-3131-4AC2-B934-159D20D116A7"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -231,7 +252,9 @@
 			"children": [
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
-				"E4B69E1F0A3A1BDC003C02F2"
+				"E4B69E1F0A3A1BDC003C02F2",
+				"A902F4AC-D85A-4FEC-BB00-D88217C21740",
+				"A5C25206-19E6-4E56-9585-3765ED8A9A00"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

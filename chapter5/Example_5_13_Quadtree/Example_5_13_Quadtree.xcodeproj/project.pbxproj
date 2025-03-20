@@ -3,10 +3,6 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"01AE5176-06E7-4915-8C61-AFA385D6568E": {
-			"fileRef": "4A556704-D31F-41BD-98EF-B7D12912C684",
-			"isa": "PBXBuildFile"
-		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -18,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -34,40 +30,20 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"30C633E1-BE7F-4A2F-8319-A1D4422BF98E": {
+		"74F4FC97-F0F4-42B1-A991-0F186BB30053": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Boid.cpp",
-			"path": "src/Boid.cpp",
+			"name": "QuadTree.cpp",
+			"path": "src/QuadTree.cpp",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"4A556704-D31F-41BD-98EF-B7D12912C684": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Flock.cpp",
-			"path": "src/Flock.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"892D5638-70FE-45AF-B4D3-74012483F08B": {
-			"fileRef": "30C633E1-BE7F-4A2F-8319-A1D4422BF98E",
-			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
-		},
-		"C245D1F1-5453-45F2-BA71-5FE4821AFC8D": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Flock.h",
-			"path": "src/Flock.h",
-			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -171,8 +147,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"892D5638-70FE-45AF-B4D3-74012483F08B",
-				"01AE5176-06E7-4915-8C61-AFA385D6568E"
+				"F6F3D86D-41DE-4940-BE00-6DCB6ADBDB1D"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -266,10 +241,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"30C633E1-BE7F-4A2F-8319-A1D4422BF98E",
-				"E8A8CA2A-08A9-474C-9703-55910F8D92A5",
-				"4A556704-D31F-41BD-98EF-B7D12912C684",
-				"C245D1F1-5453-45F2-BA71-5FE4821AFC8D"
+				"74F4FC97-F0F4-42B1-A991-0F186BB30053",
+				"E4CE436C-1240-4646-AF60-EA97FBB93A8C"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -322,6 +295,14 @@
 			"isa": "PBXCopyFilesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
 		},
+		"E4CE436C-1240-4646-AF60-EA97FBB93A8C": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "QuadTree.h",
+			"path": "src/QuadTree.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"E4EB6923138AFD0F00A09F29": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -329,13 +310,9 @@
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
 		},
-		"E8A8CA2A-08A9-474C-9703-55910F8D92A5": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Boid.h",
-			"path": "src/Boid.h",
-			"sourceTree": "SOURCE_ROOT"
+		"F6F3D86D-41DE-4940-BE00-6DCB6ADBDB1D": {
+			"fileRef": "74F4FC97-F0F4-42B1-A991-0F186BB30053",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

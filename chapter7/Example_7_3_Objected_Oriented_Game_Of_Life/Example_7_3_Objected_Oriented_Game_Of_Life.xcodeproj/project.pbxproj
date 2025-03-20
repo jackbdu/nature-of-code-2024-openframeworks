@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,12 +30,24 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
+		"76749832-DBAD-4DE6-905C-677096F11D16": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Cell.h",
+			"path": "src/Cell.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"C53CB748-539A-4AAB-96B9-A85F5CC1A606": {
+			"fileRef": "E993281D-88C7-4ED4-BD75-7F4B6FDC5538",
+			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -138,7 +150,8 @@
 			"buildActionMask": "2147483647",
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
-				"E4B69E210A3A1BDC003C02F2"
+				"E4B69E210A3A1BDC003C02F2",
+				"C53CB748-539A-4AAB-96B9-A85F5CC1A606"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -231,7 +244,9 @@
 			"children": [
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
-				"E4B69E1F0A3A1BDC003C02F2"
+				"E4B69E1F0A3A1BDC003C02F2",
+				"E993281D-88C7-4ED4-BD75-7F4B6FDC5538",
+				"76749832-DBAD-4DE6-905C-677096F11D16"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -290,6 +305,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"E993281D-88C7-4ED4-BD75-7F4B6FDC5538": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Cell.cpp",
+			"path": "src/Cell.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

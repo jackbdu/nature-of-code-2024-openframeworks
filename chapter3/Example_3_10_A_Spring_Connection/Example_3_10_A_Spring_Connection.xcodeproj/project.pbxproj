@@ -3,6 +3,14 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"00921B64-1DC5-41BA-BC45-BEF819FA825A": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Spring.cpp",
+			"path": "src/Spring.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -14,7 +22,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,27 +38,19 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"1A28ACB4-7502-4F7E-9AC9-066AFA116578": {
-			"explicitFileType": "sourcecode.cpp.cpp",
+		"3628D19D-22AF-44B0-929E-1FB0165F1F65": {
+			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Bob.cpp",
-			"path": "src/Bob.cpp",
+			"name": "Bob.h",
+			"path": "src/Bob.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"3FBF285C-BDBF-4E8D-BC7B-13BCC655BC3B": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Spring.cpp",
-			"path": "src/Spring.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"4272CD97-84A2-496E-A8E3-8B1B4C535FA2": {
-			"fileRef": "1A28ACB4-7502-4F7E-9AC9-066AFA116578",
+		"7799AB67-DA87-4E73-9A66-61CA0CB80800": {
+			"fileRef": "E1AF7031-5B72-44E4-8F78-24F8066E84CB",
 			"isa": "PBXBuildFile"
 		},
-		"50C9DCB4-61E7-4763-B6B5-C3B63FEB6518": {
+		"7D17537A-1BE3-4A96-B4FE-A660A255BA82": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -58,16 +58,24 @@
 			"path": "src/Spring.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
+		"914F4445-05E1-41E0-B37D-5F227E8CFDA5": {
+			"fileRef": "00921B64-1DC5-41BA-BC45-BEF819FA825A",
+			"isa": "PBXBuildFile"
+		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"DE5D53E6-F806-44FC-851C-8FF3119F4FFC": {
-			"fileRef": "3FBF285C-BDBF-4E8D-BC7B-13BCC655BC3B",
-			"isa": "PBXBuildFile"
+		"E1AF7031-5B72-44E4-8F78-24F8066E84CB": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Bob.cpp",
+			"path": "src/Bob.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -171,8 +179,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"4272CD97-84A2-496E-A8E3-8B1B4C535FA2",
-				"DE5D53E6-F806-44FC-851C-8FF3119F4FFC"
+				"7799AB67-DA87-4E73-9A66-61CA0CB80800",
+				"914F4445-05E1-41E0-B37D-5F227E8CFDA5"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -266,10 +274,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"1A28ACB4-7502-4F7E-9AC9-066AFA116578",
-				"E628F590-82FA-4D9F-8866-E2F01CC0E44A",
-				"3FBF285C-BDBF-4E8D-BC7B-13BCC655BC3B",
-				"50C9DCB4-61E7-4763-B6B5-C3B63FEB6518"
+				"E1AF7031-5B72-44E4-8F78-24F8066E84CB",
+				"3628D19D-22AF-44B0-929E-1FB0165F1F65",
+				"00921B64-1DC5-41BA-BC45-BEF819FA825A",
+				"7D17537A-1BE3-4A96-B4FE-A660A255BA82"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -328,14 +336,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"E628F590-82FA-4D9F-8866-E2F01CC0E44A": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Bob.h",
-			"path": "src/Bob.h",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

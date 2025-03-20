@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,15 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"74CA3DC2-B39C-4728-91C0-1498A933F15B": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"84A728CC-78C4-4CA2-BC39-1EF25EAF866A": {
+		"3D4AE1A3-0C70-4839-8812-7D54A3F43E18": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -46,15 +38,23 @@
 			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
+		"AC9428A2-98BB-47A3-953D-2C442CB911E8": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"C0B7ED3A-697B-47DD-9021-9F7CDCB6196C": {
-			"fileRef": "84A728CC-78C4-4CA2-BC39-1EF25EAF866A",
+		"BF05E6AA-65FD-451A-87AE-0ADDC9E2027B": {
+			"fileRef": "3D4AE1A3-0C70-4839-8812-7D54A3F43E18",
 			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"C0B7ED3A-697B-47DD-9021-9F7CDCB6196C"
+				"BF05E6AA-65FD-451A-87AE-0ADDC9E2027B"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"84A728CC-78C4-4CA2-BC39-1EF25EAF866A",
-				"74CA3DC2-B39C-4728-91C0-1498A933F15B"
+				"3D4AE1A3-0C70-4839-8812-7D54A3F43E18",
+				"AC9428A2-98BB-47A3-953D-2C442CB911E8"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

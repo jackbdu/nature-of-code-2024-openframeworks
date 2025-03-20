@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,19 +30,27 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"2F334A84-FCA5-47EF-8B5A-2372B72987B2": {
+		"544441E9-75E0-46F9-B49D-83914CCA0E4D": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
+			"name": "Attractor.h",
+			"path": "src/Attractor.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"4DE9E2AF-2D3D-4E02-B4E8-D45DE16E9A76": {
-			"fileRef": "526B75B1-2A7E-4AFD-9789-069E8F247894",
+		"7F61D722-9707-443C-B2EB-BF634B1DC380": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Attractor.cpp",
+			"path": "src/Attractor.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8D63A297-34C2-43CC-A838-A7BBA542D49A": {
+			"fileRef": "7F61D722-9707-443C-B2EB-BF634B1DC380",
 			"isa": "PBXBuildFile"
 		},
-		"526B75B1-2A7E-4AFD-9789-069E8F247894": {
+		"9E157CE5-581F-4C53-8D8D-C69E40F5DC49": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -54,8 +62,12 @@
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"BE588A6C-7FA7-4F28-98EB-B8A75909BF9D": {
+			"fileRef": "9E157CE5-581F-4C53-8D8D-C69E40F5DC49",
+			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +171,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"4DE9E2AF-2D3D-4E02-B4E8-D45DE16E9A76"
+				"8D63A297-34C2-43CC-A838-A7BBA542D49A",
+				"BE588A6C-7FA7-4F28-98EB-B8A75909BF9D"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +266,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"526B75B1-2A7E-4AFD-9789-069E8F247894",
-				"2F334A84-FCA5-47EF-8B5A-2372B72987B2"
+				"7F61D722-9707-443C-B2EB-BF634B1DC380",
+				"544441E9-75E0-46F9-B49D-83914CCA0E4D",
+				"9E157CE5-581F-4C53-8D8D-C69E40F5DC49",
+				"E58E53F3-F010-4748-87CD-B9472FCA73E5"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +328,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"E58E53F3-F010-4748-87CD-B9472FCA73E5": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,15 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"32ACA31C-E2E7-473E-885E-FC5B0D2EC352": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"51E2D4D3-047D-436F-A68A-FFE784EC70E5": {
+		"65A1A7CC-C0A0-43E1-8EE1-A66FB5460E8A": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -46,16 +38,24 @@
 			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"8E342B84-C051-4160-BF4A-AC7CF0DFE1BF": {
-			"fileRef": "51E2D4D3-047D-436F-A68A-FFE784EC70E5",
-			"isa": "PBXBuildFile"
+		"7A2665C7-9123-4F95-BB42-189B983AF4CD": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"C7BE05BD-25BC-423D-BAE1-A759DD07E199": {
+			"fileRef": "65A1A7CC-C0A0-43E1-8EE1-A66FB5460E8A",
+			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"8E342B84-C051-4160-BF4A-AC7CF0DFE1BF"
+				"C7BE05BD-25BC-423D-BAE1-A759DD07E199"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"51E2D4D3-047D-436F-A68A-FFE784EC70E5",
-				"32ACA31C-E2E7-473E-885E-FC5B0D2EC352"
+				"65A1A7CC-C0A0-43E1-8EE1-A66FB5460E8A",
+				"7A2665C7-9123-4F95-BB42-189B983AF4CD"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

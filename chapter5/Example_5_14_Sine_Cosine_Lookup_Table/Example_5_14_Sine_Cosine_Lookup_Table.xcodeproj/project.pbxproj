@@ -14,7 +14,7 @@
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "folder",
 			"name": "openFrameworks",
-			"path": "../../../libs/openFrameworks",
+			"path": "../../../../libs/openFrameworks",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"19B789C429E5AB4A0082E9B8": {
@@ -30,31 +30,11 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"343151A8-D98B-4612-886B-871AE40BE839": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "QuadTree.cpp",
-			"path": "src/QuadTree.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"54F74056-1AC8-4E10-B584-CBE8EB6582B6": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "QuadTree.h",
-			"path": "src/QuadTree.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"699E76C9-ACDC-44ED-897D-E719083BA2C5": {
-			"fileRef": "343151A8-D98B-4612-886B-871AE40BE839",
-			"isa": "PBXBuildFile"
-		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
-			"path": "../../../addons",
+			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -158,8 +138,7 @@
 			"buildActionMask": "2147483647",
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
-				"E4B69E210A3A1BDC003C02F2",
-				"699E76C9-ACDC-44ED-897D-E719083BA2C5"
+				"E4B69E210A3A1BDC003C02F2"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -252,9 +231,7 @@
 			"children": [
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
-				"E4B69E1F0A3A1BDC003C02F2",
-				"343151A8-D98B-4612-886B-871AE40BE839",
-				"54F74056-1AC8-4E10-B584-CBE8EB6582B6"
+				"E4B69E1F0A3A1BDC003C02F2"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
