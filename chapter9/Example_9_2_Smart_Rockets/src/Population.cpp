@@ -17,7 +17,7 @@ void Population::setup(float _mutationRate, int length, int lifeSpan) {
 
 void Population::live() {
   for (int i = 0; i < population.size(); ++i) {
-    population[i].update();
+    population[i].run();
   }
 };
 

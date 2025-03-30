@@ -15,14 +15,18 @@ void Rocket::calculateFitness(ofVec2f target) {
 
 void Rocket::applyForce(ofVec2f force) { acceleration += force; };
 
-void Rocket::update() {
+void Rocket::run() {
   applyForce(dna->genes[geneCounter]);
   geneCounter += 1;
 
+  update();
+};
+
+void Rocket::update() {
   velocity += acceleration;
   position += velocity;
   acceleration *= 0;
-};
+}
 
 void Rocket::show() {
   const float angle = ofVec2f(1, 0).angleRad(velocity) + HALF_PI;
