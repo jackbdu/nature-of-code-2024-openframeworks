@@ -1,8 +1,6 @@
 # The Nature of Code (2024 Edition): Code Examples in C++ (openFrameworks)
 
-This repository is an **ongoing** effort to port code examples for Daniel Shiffman's book [the Nature of Code (2024 Edition)](https://natureofcode.com/) from JavaScript ([p5.js](https://p5js.org/)) to C++ ([openFrameworks](https://openframeworks.cc/)).
-
-The original JavaScript code examples can be found on [the Nature of Code's Examples page](https://natureofcode.com/examples/).
+This repository is a collection of C++ ([openFrameworks](https://openframeworks.cc/)) code examples for **Daniel Shiffman**'s book [_the Nature of Code (2024 Edition)_](https://natureofcode.com/), ported from his [original code examples](https://natureofcode.com/examples/) written in JavaScript ([p5.js](https://p5js.org/)).
 
 ## How do I run these examples?
 
@@ -17,3 +15,7 @@ The original JavaScript code examples can be found on [the Nature of Code's Exam
 5. Finally, open any code example (e.g. `Example_0_1_Random_Walk/`) in your preferred IDE to compile and run.
 
 _For additional guides, you can refer to the [openFrameworks learning page](https://openframeworks.cc/learning/)._
+
+## License
+
+The code examples in this repository are licensed under the [MIT License](LICENSE). For copyright information of the Nature of Code book, please refer to the [Nature of Code Credits page](https://natureofcode.com/credits/).
