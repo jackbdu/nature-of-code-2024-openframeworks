@@ -4,7 +4,7 @@ void QuadTree::setup(Rectangle _boundary, int n) {
   boundary = _boundary;
   capacity = n;
   divided = false;
-};
+}
 
 void QuadTree::subdivide() {
   const float x = boundary.x;
@@ -28,7 +28,7 @@ void QuadTree::subdivide() {
   southwest->setup(sw, capacity);
 
   divided = true;
-};
+}
 
 bool QuadTree::insert(MyPoint point) {
   if (!boundary.contains(point)) {

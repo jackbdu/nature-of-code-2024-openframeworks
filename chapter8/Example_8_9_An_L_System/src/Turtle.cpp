@@ -3,7 +3,7 @@
 void Turtle::setup(float _length, float _angle) {
   length = _length;
   angle = _angle;
-};
+}
 
 void Turtle::render(string sentence) {
   ofSetColor(0);

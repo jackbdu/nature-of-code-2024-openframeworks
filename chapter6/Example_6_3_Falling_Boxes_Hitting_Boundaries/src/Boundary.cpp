@@ -9,7 +9,7 @@ void Boundary::setup(ofxBox2d *box2d, float _x, float _y, float _w, float _h) {
   shape = make_shared<ofxBox2dRect>();
   shape->setFriction(0.2);
   shape->setup(box2d->getWorld(), x, y, w, h);
-};
+}
 
 void Boundary::show() {
   ofSetRectMode(OF_RECTMODE_CENTER);
@@ -22,4 +22,4 @@ void Boundary::show() {
   ofNoFill();
   ofSetColor(0);
   ofDrawRectangle(x, y, w, h);
-};
+}

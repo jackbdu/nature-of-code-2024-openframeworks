@@ -20,7 +20,7 @@ void CustomShape::setup(ofxBox2d *box2d, float x, float y) {
   shape->create(box2d->getWorld());
   shape->setVelocity(ofRandom(-5, 5), 0);
   shape->body->SetAngularVelocity(2.5);
-};
+}
 
 void CustomShape::show() {
 

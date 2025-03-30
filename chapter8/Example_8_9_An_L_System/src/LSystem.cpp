@@ -3,7 +3,7 @@
 void LSystem::setup(string axiom, map<string, string> rules) {
   sentence = axiom;
   ruleset = rules;
-};
+}
 
 void LSystem::generate() {
   string nextgen = "";

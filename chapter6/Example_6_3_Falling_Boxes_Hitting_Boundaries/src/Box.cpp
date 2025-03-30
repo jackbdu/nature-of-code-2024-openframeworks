@@ -11,7 +11,7 @@ void Box::setup(ofxBox2d *box2d, float x, float y) {
   shape->setup(box2d->getWorld(), x, y, w, h);
   shape->setVelocity(ofRandom(-5, 5), 0);
   shape->body->SetAngularVelocity(2.5);
-};
+}
 
 void Box::show() {
   ofVec2f pos = shape->getPosition();
@@ -34,7 +34,7 @@ void Box::show() {
   ofDrawRectangle(0, 0, w, h);
 
   ofPopMatrix();
-};
+}
 
 bool Box::checkEdge() { return shape->getPosition().y > ofGetHeight() + w; }
 

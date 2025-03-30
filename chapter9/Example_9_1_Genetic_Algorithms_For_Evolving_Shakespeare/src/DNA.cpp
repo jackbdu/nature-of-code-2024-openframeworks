@@ -8,7 +8,7 @@ void DNA::setup(int length) {
   }
 };
 
-string DNA::getPhrase() { return string(genes.begin(), genes.end()); };
+string DNA::getPhrase() { return string(genes.begin(), genes.end()); }
 
 void DNA::calculateFitness(string target) {
   float score = 0;

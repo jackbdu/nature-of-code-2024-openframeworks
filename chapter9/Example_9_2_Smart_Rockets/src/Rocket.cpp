@@ -6,21 +6,21 @@ void Rocket::setup(float x, float y, shared_ptr<DNA> _dna) {
   fitness = 0;
   dna = _dna;
   geneCounter = 0;
-};
+}
 
 void Rocket::calculateFitness(ofVec2f target) {
   const float distance = position.distance(target);
   fitness = 1 / (distance * distance);
-};
+}
 
-void Rocket::applyForce(ofVec2f force) { acceleration += force; };
+void Rocket::applyForce(ofVec2f force) { acceleration += force; }
 
 void Rocket::run() {
   applyForce(dna->genes[geneCounter]);
   geneCounter += 1;
 
   update();
-};
+}
 
 void Rocket::update() {
   velocity += acceleration;
@@ -59,4 +59,4 @@ void Rocket::show() {
   ofDrawTriangle(0, -r * 2, -r, r * 2, r, r * 2);
 
   ofPopMatrix();
-};
+}

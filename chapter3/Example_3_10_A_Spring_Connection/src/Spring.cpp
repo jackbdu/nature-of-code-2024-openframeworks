@@ -14,7 +14,7 @@ void Spring::connect(Bob *bob) {
   const ofVec2f force = direction.getScaled(-1 * k * stretch);
 
   bob->applyForce(force);
-};
+}
 
 void Spring::constrainLength(Bob *bob, float minLen, float maxLen) {
   ofVec2f direction = bob->position - anchor;

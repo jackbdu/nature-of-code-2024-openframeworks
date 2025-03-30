@@ -4,7 +4,7 @@ void Box::setup(float _x, float _y) {
   x = _x;
   y = _y;
   w = 16;
-};
+}
 
 void Box::show() {
   ofSetRectMode(OF_RECTMODE_CENTER);
@@ -17,4 +17,4 @@ void Box::show() {
   ofNoFill();
   ofSetColor(0);
   ofDrawRectangle(x, y, w, w);
-};
+}

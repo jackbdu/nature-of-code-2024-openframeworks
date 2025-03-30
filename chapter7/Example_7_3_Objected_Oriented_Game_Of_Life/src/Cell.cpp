@@ -7,7 +7,7 @@ void Cell::setup(int _state, float _x, float _y, float _w) {
   x = _x;
   y = _y;
   w = _w;
-};
+}
 
 void Cell::show() {
   ofFill();

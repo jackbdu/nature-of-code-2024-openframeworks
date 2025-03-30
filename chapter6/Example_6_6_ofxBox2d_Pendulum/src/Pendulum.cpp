@@ -15,7 +15,7 @@ void Pendulum::setup(ofxBox2d *box2d, float x, float y, float _len) {
   arm = make_shared<ofxBox2dJoint>();
   arm->setup(box2d->getWorld(), anchor->body, bob->body);
   arm->setLength(len);
-};
+}
 
 void Pendulum::show() {
   ofVec2f anchorPos = anchor->getPosition();

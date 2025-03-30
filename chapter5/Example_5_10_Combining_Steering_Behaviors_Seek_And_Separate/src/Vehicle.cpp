@@ -18,7 +18,7 @@ void Vehicle::applyBehaviors(vector<Vehicle *> vehicles) {
 
   applyForce(separateForce);
   applyForce(seekForce);
-};
+}
 
 void Vehicle::applyForce(ofVec2f force) { acceleration += force; }
 

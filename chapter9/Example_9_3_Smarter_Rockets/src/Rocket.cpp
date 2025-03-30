@@ -10,7 +10,7 @@ void Rocket::setup(float x, float y, shared_ptr<DNA> _dna) {
   geneCounter = 0;
   hitObstacle = false;
   hitTarget = false;
-};
+}
 
 void Rocket::calculateFitness() {
   fitness = 1 / (finishCounter * recordDistance);
@@ -21,7 +21,7 @@ void Rocket::calculateFitness() {
 
   if (hitTarget)
     fitness *= 2;
-};
+}
 
 void Rocket::run(vector<Obstacle> obstacles) {
   if (!hitObstacle && !hitTarget) {
@@ -43,7 +43,7 @@ void Rocket::checkTarget(Obstacle target) {
 
   if (!hitTarget)
     ++finishCounter;
-};
+}
 
 void Rocket::checkObstacles(vector<Obstacle> obstacles) {
   for (int i = 0; i < obstacles.size(); ++i) {
@@ -52,7 +52,7 @@ void Rocket::checkObstacles(vector<Obstacle> obstacles) {
   }
 };
 
-void Rocket::applyForce(ofVec2f force) { acceleration += force; };
+void Rocket::applyForce(ofVec2f force) { acceleration += force; }
 
 void Rocket::update() {
   velocity += acceleration;
@@ -91,4 +91,4 @@ void Rocket::show() {
   ofDrawTriangle(0, -r * 2, -r, r * 2, r, r * 2);
 
   ofPopMatrix();
-};
+}
