@@ -5,7 +5,10 @@ This repository is a collection of C++ ([openFrameworks](https://openframeworks.
 ## How do I run these examples?
 
 1. Download openFrameworks v0.12.0 for your desired platform (e.g. `osx` for macOS) from the [openFrameworks download page](https://openframeworks.cc/download/) and unzip it. You should see a folder titled `of_v0.12.0_platform_release/` (e.g. `of_v0.12.0_osx_release/` for macOS).
+
 2. [Download this repository](https://github.com/jackbdu/nature-of-code-2024-openframeworks/archive/refs/heads/main.zip), unzip it, and place the extracted folder (`nature-of-code-2024-openframeworks-main/`) into the `of_v0.12.0_platform_release/apps/` folder.
+
+3. Launch the _projectGenerator_ app located in the `of_v0.12.0_platform_release/projectGenerator/` folder. Click the gear icon :gear: and check _Advanced options_.
 
 | ![](assets/project-generator-advanced-options-screenshot.png) | ![](assets/project-generator-update-multiple-screenshot.png) |
 | ------------------------------------------------------------- | ------------------------------------------------------------ |
