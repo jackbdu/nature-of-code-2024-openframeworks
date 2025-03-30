@@ -30,7 +30,11 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"32219E4F-74F1-4EEE-8E18-06C6D2038CDB": {
+		"4E5C4BCD-16E5-4694-89D1-335412F7B26B": {
+			"fileRef": "B485253B-0B40-4D5B-99C8-6DB274082443",
+			"isa": "PBXBuildFile"
+		},
+		"5A48AFAC-4389-40B8-9E51-990E51A23BA9": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -38,9 +42,13 @@
 			"path": "src/DNA.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"4BB4EE4A-19C3-4126-BBAA-D13A2BC6EC15": {
-			"fileRef": "F213C2FB-AE84-4AE1-83CE-EE62B62D3F86",
-			"isa": "PBXBuildFile"
+		"B485253B-0B40-4D5B-99C8-6DB274082443": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "DNA.cpp",
+			"path": "src/DNA.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -151,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"4BB4EE4A-19C3-4126-BBAA-D13A2BC6EC15"
+				"4E5C4BCD-16E5-4694-89D1-335412F7B26B"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -175,7 +183,7 @@
 			"buildRules": [],
 			"dependencies": [],
 			"isa": "PBXNativeTarget",
-			"name": "Example_9_1_Genetic_Algorithms_For_Evolving_Shakespheare",
+			"name": "Example_9_1_Genetic_Algorithms_For_Evolving_Shakespeare",
 			"productName": "myOFApp",
 			"productReference": "E4B69B5B0A3A1756003C02F2",
 			"productType": "com.apple.product-type.application"
@@ -184,7 +192,7 @@
 			"explicitFileType": "wrapper.application",
 			"includeInIndex": "0",
 			"isa": "PBXFileReference",
-			"path": "Example_9_1_Genetic_Algorithms_For_Evolving_ShakespheareDebug.app",
+			"path": "Example_9_1_Genetic_Algorithms_For_Evolving_ShakespeareDebug.app",
 			"sourceTree": "BUILT_PRODUCTS_DIR"
 		},
 		"E4B69B5F0A3A1757003C02F2": {
@@ -245,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"F213C2FB-AE84-4AE1-83CE-EE62B62D3F86",
-				"32219E4F-74F1-4EEE-8E18-06C6D2038CDB"
+				"B485253B-0B40-4D5B-99C8-6DB274082443",
+				"5A48AFAC-4389-40B8-9E51-990E51A23BA9"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -305,14 +313,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"F213C2FB-AE84-4AE1-83CE-EE62B62D3F86": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "DNA.cpp",
-			"path": "src/DNA.cpp",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",
