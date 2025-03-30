@@ -30,21 +30,17 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"6028B5E1-766B-498C-8E6F-5E6BE981FF72": {
+		"32219E4F-74F1-4EEE-8E18-06C6D2038CDB": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "KochLine.h",
-			"path": "src/KochLine.h",
+			"name": "DNA.h",
+			"path": "src/DNA.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"7D57DAB5-93AB-4E8B-968D-56E9E23A4307": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "KochLine.cpp",
-			"path": "src/KochLine.cpp",
-			"sourceTree": "SOURCE_ROOT"
+		"4BB4EE4A-19C3-4126-BBAA-D13A2BC6EC15": {
+			"fileRef": "F213C2FB-AE84-4AE1-83CE-EE62B62D3F86",
+			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -155,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"EAA7EC34-E489-41C3-B4D2-4787C10F57EA"
+				"4BB4EE4A-19C3-4126-BBAA-D13A2BC6EC15"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -249,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"7D57DAB5-93AB-4E8B-968D-56E9E23A4307",
-				"6028B5E1-766B-498C-8E6F-5E6BE981FF72"
+				"F213C2FB-AE84-4AE1-83CE-EE62B62D3F86",
+				"32219E4F-74F1-4EEE-8E18-06C6D2038CDB"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -310,9 +306,13 @@
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
 		},
-		"EAA7EC34-E489-41C3-B4D2-4787C10F57EA": {
-			"fileRef": "7D57DAB5-93AB-4E8B-968D-56E9E23A4307",
-			"isa": "PBXBuildFile"
+		"F213C2FB-AE84-4AE1-83CE-EE62B62D3F86": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "DNA.cpp",
+			"path": "src/DNA.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

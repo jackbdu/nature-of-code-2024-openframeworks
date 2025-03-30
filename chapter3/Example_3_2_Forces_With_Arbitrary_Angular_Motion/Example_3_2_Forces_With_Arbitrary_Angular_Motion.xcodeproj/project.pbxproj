@@ -3,6 +3,14 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"1641BCE6-779E-4413-9E97-8EF33EA0D126": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Attractor.cpp",
+			"path": "src/Attractor.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -30,15 +38,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"361AF8D8-52FA-4DE8-A9AA-FFECB408EE3B": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Attractor.cpp",
-			"path": "src/Attractor.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"54A29C04-F5E3-4803-A8C0-FEC9FB76CED7": {
+		"24F66AEF-683E-4223-AF97-D6B51B377800": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -46,8 +46,16 @@
 			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"7D8C46CC-0AD8-47F9-A5E1-E7A02625CBB3": {
-			"fileRef": "54A29C04-F5E3-4803-A8C0-FEC9FB76CED7",
+		"746F15BB-71FD-45C3-B891-57FCFE158F87": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Attractor.h",
+			"path": "src/Attractor.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"89BDADF3-E4B3-483F-B618-16277CE3D688": {
+			"fileRef": "1641BCE6-779E-4413-9E97-8EF33EA0D126",
 			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -57,17 +65,13 @@
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"C5AC36C2-A38C-4567-B1BE-4995E15170F3": {
+		"C177BAB6-5EA4-46CD-9CA7-4D08DEED0A01": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Mover.h",
 			"path": "src/Mover.h",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"D0B1F04F-7C25-4E17-B9CD-933D2AE39489": {
-			"fileRef": "361AF8D8-52FA-4DE8-A9AA-FFECB408EE3B",
-			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -171,8 +175,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"D0B1F04F-7C25-4E17-B9CD-933D2AE39489",
-				"7D8C46CC-0AD8-47F9-A5E1-E7A02625CBB3"
+				"89BDADF3-E4B3-483F-B618-16277CE3D688",
+				"F60F59C8-64C5-4546-ACDD-E4AF0D242A14"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -266,10 +270,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"361AF8D8-52FA-4DE8-A9AA-FFECB408EE3B",
-				"F8C24C39-387D-4B80-A96F-7E57080855CD",
-				"54A29C04-F5E3-4803-A8C0-FEC9FB76CED7",
-				"C5AC36C2-A38C-4567-B1BE-4995E15170F3"
+				"1641BCE6-779E-4413-9E97-8EF33EA0D126",
+				"746F15BB-71FD-45C3-B891-57FCFE158F87",
+				"24F66AEF-683E-4223-AF97-D6B51B377800",
+				"C177BAB6-5EA4-46CD-9CA7-4D08DEED0A01"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -329,13 +333,9 @@
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
 		},
-		"F8C24C39-387D-4B80-A96F-7E57080855CD": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Attractor.h",
-			"path": "src/Attractor.h",
-			"sourceTree": "SOURCE_ROOT"
+		"F60F59C8-64C5-4546-ACDD-E4AF0D242A14": {
+			"fileRef": "24F66AEF-683E-4223-AF97-D6B51B377800",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

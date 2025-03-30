@@ -30,23 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"2946DB44-856B-4242-9F58-755785778091": {
-			"fileRef": "D3677503-409B-43A2-886A-F54BC4DBF878",
-			"isa": "PBXBuildFile"
-		},
-		"34901F58-72EB-4610-9837-9BF65F0D6BEA": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "FlowField.h",
-			"path": "src/FlowField.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"7C5E4537-895D-454B-ADD5-68A78CFBB092": {
-			"fileRef": "9200C9EF-4510-49C4-A5B6-A0820EBD9C16",
-			"isa": "PBXBuildFile"
-		},
-		"9200C9EF-4510-49C4-A5B6-A0820EBD9C16": {
+		"611548FB-EFA1-4E45-A42D-DD0C30174824": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -54,12 +38,12 @@
 			"path": "src/Vehicle.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"A415E25E-F673-4FF2-A6A3-CD72ACC40621": {
+		"A7C39E88-352C-4392-9254-D81D98D4D03B": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Vehicle.h",
-			"path": "src/Vehicle.h",
+			"name": "FlowField.h",
+			"path": "src/FlowField.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -69,12 +53,20 @@
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"D3677503-409B-43A2-886A-F54BC4DBF878": {
+		"C09E0062-301F-471C-966E-8C3E8828A6ED": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "FlowField.cpp",
 			"path": "src/FlowField.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C463FB52-14A3-4A64-9671-43B3D4D091FA": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.h",
+			"path": "src/Vehicle.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -179,8 +171,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"2946DB44-856B-4242-9F58-755785778091",
-				"7C5E4537-895D-454B-ADD5-68A78CFBB092"
+				"F4D6E6FB-B2A7-436B-BC6F-88715C65D431",
+				"EC412B37-1BFE-4466-9C7A-58E585B43734"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -274,10 +266,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"D3677503-409B-43A2-886A-F54BC4DBF878",
-				"34901F58-72EB-4610-9837-9BF65F0D6BEA",
-				"9200C9EF-4510-49C4-A5B6-A0820EBD9C16",
-				"A415E25E-F673-4FF2-A6A3-CD72ACC40621"
+				"C09E0062-301F-471C-966E-8C3E8828A6ED",
+				"A7C39E88-352C-4392-9254-D81D98D4D03B",
+				"611548FB-EFA1-4E45-A42D-DD0C30174824",
+				"C463FB52-14A3-4A64-9671-43B3D4D091FA"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -336,6 +328,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"EC412B37-1BFE-4466-9C7A-58E585B43734": {
+			"fileRef": "611548FB-EFA1-4E45-A42D-DD0C30174824",
+			"isa": "PBXBuildFile"
+		},
+		"F4D6E6FB-B2A7-436B-BC6F-88715C65D431": {
+			"fileRef": "C09E0062-301F-471C-966E-8C3E8828A6ED",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

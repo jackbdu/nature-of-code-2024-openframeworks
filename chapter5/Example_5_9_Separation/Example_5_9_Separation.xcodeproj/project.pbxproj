@@ -30,15 +30,11 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"28828745-03DB-42B3-9DDC-B58F40E5B92E": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Vehicle.cpp",
-			"path": "src/Vehicle.cpp",
-			"sourceTree": "SOURCE_ROOT"
+		"3D8D9C66-5674-40F5-B6F6-8371DB96FA0C": {
+			"fileRef": "9FB4486F-BCD3-4101-9532-63FE4F880E7B",
+			"isa": "PBXBuildFile"
 		},
-		"3661F93A-CFA6-4413-8181-B784609321A3": {
+		"94875ED4-B7F0-47D2-8703-DB84F9488AD6": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -46,9 +42,13 @@
 			"path": "src/Vehicle.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"695E85BB-6303-41C1-8902-4723A11DE75B": {
-			"fileRef": "28828745-03DB-42B3-9DDC-B58F40E5B92E",
-			"isa": "PBXBuildFile"
+		"9FB4486F-BCD3-4101-9532-63FE4F880E7B": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.cpp",
+			"path": "src/Vehicle.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"695E85BB-6303-41C1-8902-4723A11DE75B"
+				"3D8D9C66-5674-40F5-B6F6-8371DB96FA0C"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"28828745-03DB-42B3-9DDC-B58F40E5B92E",
-				"3661F93A-CFA6-4413-8181-B784609321A3"
+				"9FB4486F-BCD3-4101-9532-63FE4F880E7B",
+				"94875ED4-B7F0-47D2-8703-DB84F9488AD6"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

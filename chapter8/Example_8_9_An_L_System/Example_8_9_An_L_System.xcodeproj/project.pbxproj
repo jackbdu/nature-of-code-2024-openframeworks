@@ -30,31 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"38DC1000-3F7B-4159-9326-F70617FCCEAF": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Turtle.h",
-			"path": "src/Turtle.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"3AD254B2-9EAF-4136-910D-17C5FBB6003D": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "LSystem.h",
-			"path": "src/LSystem.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"41BF2089-DCE4-4F3B-865C-3D708E114005": {
-			"fileRef": "B493FCC2-1EF7-41FE-8228-9AFC72AE1FD5",
-			"isa": "PBXBuildFile"
-		},
-		"9D566633-CD60-4675-ACD1-E24185AF96FD": {
-			"fileRef": "AE090EEE-8157-4A80-A113-D210DBE10F06",
-			"isa": "PBXBuildFile"
-		},
-		"AE090EEE-8157-4A80-A113-D210DBE10F06": {
+		"31457D76-BD93-4DBE-BA25-6FF3A6F6702D": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -62,12 +38,16 @@
 			"path": "src/LSystem.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"B493FCC2-1EF7-41FE-8228-9AFC72AE1FD5": {
-			"explicitFileType": "sourcecode.cpp.cpp",
+		"65586FF1-A727-4A66-969B-DA513A76762B": {
+			"fileRef": "31457D76-BD93-4DBE-BA25-6FF3A6F6702D",
+			"isa": "PBXBuildFile"
+		},
+		"96FEFF63-C6C0-44E2-836A-56BB7816283A": {
+			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Turtle.cpp",
-			"path": "src/Turtle.cpp",
+			"name": "Turtle.h",
+			"path": "src/Turtle.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -76,6 +56,14 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"C0AE94A2-D673-471B-80EA-C510057C9D28": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Turtle.cpp",
+			"path": "src/Turtle.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -179,8 +167,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"9D566633-CD60-4675-ACD1-E24185AF96FD",
-				"41BF2089-DCE4-4F3B-865C-3D708E114005"
+				"65586FF1-A727-4A66-969B-DA513A76762B",
+				"F5EF9EFD-ABE6-447D-8136-E923837A1BD7"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -274,10 +262,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"AE090EEE-8157-4A80-A113-D210DBE10F06",
-				"3AD254B2-9EAF-4136-910D-17C5FBB6003D",
-				"B493FCC2-1EF7-41FE-8228-9AFC72AE1FD5",
-				"38DC1000-3F7B-4159-9326-F70617FCCEAF"
+				"31457D76-BD93-4DBE-BA25-6FF3A6F6702D",
+				"EAF603CE-85F2-4B3F-A729-3E0885A8773C",
+				"C0AE94A2-D673-471B-80EA-C510057C9D28",
+				"96FEFF63-C6C0-44E2-836A-56BB7816283A"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -336,6 +324,18 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"EAF603CE-85F2-4B3F-A729-3E0885A8773C": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "LSystem.h",
+			"path": "src/LSystem.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F5EF9EFD-ABE6-447D-8136-E923837A1BD7": {
+			"fileRef": "C0AE94A2-D673-471B-80EA-C510057C9D28",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

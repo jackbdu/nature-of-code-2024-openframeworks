@@ -3,10 +3,6 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"003800D4-2AC8-4280-9206-E6264B7E7633": {
-			"fileRef": "66057977-97A2-401E-97C9-4DE4AD3858FA",
-			"isa": "PBXBuildFile"
-		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -34,12 +30,16 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"66057977-97A2-401E-97C9-4DE4AD3858FA": {
-			"explicitFileType": "sourcecode.cpp.cpp",
+		"254C352E-1588-479F-AEB5-827968FCFDF2": {
+			"fileRef": "C78D8084-4779-4E10-B4FC-554493187087",
+			"isa": "PBXBuildFile"
+		},
+		"ACAA73BB-A7A8-4560-B4CA-22DEB6E5C5B1": {
+			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Body.cpp",
-			"path": "src/Body.cpp",
+			"name": "Body.h",
+			"path": "src/Body.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -49,12 +49,12 @@
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"DEB49FED-A516-49F8-86BC-2D1920FCC929": {
-			"explicitFileType": "sourcecode.c.h",
+		"C78D8084-4779-4E10-B4FC-554493187087": {
+			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Body.h",
-			"path": "src/Body.h",
+			"name": "Body.cpp",
+			"path": "src/Body.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"003800D4-2AC8-4280-9206-E6264B7E7633"
+				"254C352E-1588-479F-AEB5-827968FCFDF2"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"66057977-97A2-401E-97C9-4DE4AD3858FA",
-				"DEB49FED-A516-49F8-86BC-2D1920FCC929"
+				"C78D8084-4779-4E10-B4FC-554493187087",
+				"ACAA73BB-A7A8-4560-B4CA-22DEB6E5C5B1"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

@@ -30,13 +30,25 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"74F4FC97-F0F4-42B1-A991-0F186BB30053": {
+		"62F93781-8C6E-470E-B181-81898AD19CB7": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "QuadTree.h",
+			"path": "src/QuadTree.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"63DB8FE7-B5ED-442B-B567-BA82D327714D": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "QuadTree.cpp",
 			"path": "src/QuadTree.cpp",
 			"sourceTree": "SOURCE_ROOT"
+		},
+		"B7A4C32A-34DA-4E48-B8B3-3C058EECFD9B": {
+			"fileRef": "63DB8FE7-B5ED-442B-B567-BA82D327714D",
+			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -147,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"F6F3D86D-41DE-4940-BE00-6DCB6ADBDB1D"
+				"B7A4C32A-34DA-4E48-B8B3-3C058EECFD9B"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -241,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"74F4FC97-F0F4-42B1-A991-0F186BB30053",
-				"E4CE436C-1240-4646-AF60-EA97FBB93A8C"
+				"63DB8FE7-B5ED-442B-B567-BA82D327714D",
+				"62F93781-8C6E-470E-B181-81898AD19CB7"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -295,24 +307,12 @@
 			"isa": "PBXCopyFilesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
 		},
-		"E4CE436C-1240-4646-AF60-EA97FBB93A8C": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "QuadTree.h",
-			"path": "src/QuadTree.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
 		"E4EB6923138AFD0F00A09F29": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"F6F3D86D-41DE-4940-BE00-6DCB6ADBDB1D": {
-			"fileRef": "74F4FC97-F0F4-42B1-A991-0F186BB30053",
-			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

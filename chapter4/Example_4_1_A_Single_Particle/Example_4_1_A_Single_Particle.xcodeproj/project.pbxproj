@@ -30,9 +30,17 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"814E020E-665F-4BBA-AB02-C9C8B774A622": {
-			"fileRef": "F300BBFB-4F41-47BE-B076-E87281B1ABB6",
+		"75172D13-25A6-475E-889F-FFAE6FC2BAAF": {
+			"fileRef": "975CB788-8B9A-4208-842B-BD964AEC2171",
 			"isa": "PBXBuildFile"
+		},
+		"975CB788-8B9A-4208-842B-BD964AEC2171": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.cpp",
+			"path": "src/Particle.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -40,6 +48,14 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"CA8E8C3F-6DAD-4163-946C-B2AA024AA12A": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.h",
+			"path": "src/Particle.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -143,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"814E020E-665F-4BBA-AB02-C9C8B774A622"
+				"75172D13-25A6-475E-889F-FFAE6FC2BAAF"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -237,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"F300BBFB-4F41-47BE-B076-E87281B1ABB6",
-				"F28BDEDD-AAF3-437B-8E5E-AE9998408784"
+				"975CB788-8B9A-4208-842B-BD964AEC2171",
+				"CA8E8C3F-6DAD-4163-946C-B2AA024AA12A"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -297,22 +313,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"F28BDEDD-AAF3-437B-8E5E-AE9998408784": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Particle.h",
-			"path": "src/Particle.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"F300BBFB-4F41-47BE-B076-E87281B1ABB6": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Particle.cpp",
-			"path": "src/Particle.cpp",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

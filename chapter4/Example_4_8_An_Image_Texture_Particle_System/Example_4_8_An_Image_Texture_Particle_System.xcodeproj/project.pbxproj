@@ -3,18 +3,6 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"0278B59C-FBD9-4F0B-9474-589031A50471": {
-			"fileRef": "83C4E043-BB8D-491B-B5C2-7F099E76AF64",
-			"isa": "PBXBuildFile"
-		},
-		"088F69D3-9236-4026-A462-06DABF8B5950": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Emitter.h",
-			"path": "src/Emitter.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -42,15 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"2A6AD5E1-F9B2-48D7-83FD-8C3D0C5BE30F": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Emitter.cpp",
-			"path": "src/Emitter.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"83C4E043-BB8D-491B-B5C2-7F099E76AF64": {
+		"4041E259-9493-448D-AE48-8C9ACF83A82F": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -58,8 +38,20 @@
 			"path": "src/Particle.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"9E15B8C5-5934-4876-8FF9-D9405B6B0639": {
-			"fileRef": "2A6AD5E1-F9B2-48D7-83FD-8C3D0C5BE30F",
+		"59D1727B-8D1B-438F-879F-54A9F08381B3": {
+			"fileRef": "D1255541-E1CB-41A8-A3BD-31435D392BE7",
+			"isa": "PBXBuildFile"
+		},
+		"83590447-A361-4594-A6E1-9D6A67C25CC1": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.h",
+			"path": "src/Particle.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"ABE4185B-EE09-41F1-9B79-C54158D41EC8": {
+			"fileRef": "4041E259-9493-448D-AE48-8C9ACF83A82F",
 			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -69,12 +61,20 @@
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"E29E7C57-3284-4494-941E-8C8AC6B4DAEA": {
+		"CA809101-803A-4EE1-AB80-1CD25532480D": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Particle.h",
-			"path": "src/Particle.h",
+			"name": "Emitter.h",
+			"path": "src/Emitter.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"D1255541-E1CB-41A8-A3BD-31435D392BE7": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Emitter.cpp",
+			"path": "src/Emitter.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
@@ -179,8 +179,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"9E15B8C5-5934-4876-8FF9-D9405B6B0639",
-				"0278B59C-FBD9-4F0B-9474-589031A50471"
+				"59D1727B-8D1B-438F-879F-54A9F08381B3",
+				"ABE4185B-EE09-41F1-9B79-C54158D41EC8"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -274,10 +274,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"2A6AD5E1-F9B2-48D7-83FD-8C3D0C5BE30F",
-				"088F69D3-9236-4026-A462-06DABF8B5950",
-				"83C4E043-BB8D-491B-B5C2-7F099E76AF64",
-				"E29E7C57-3284-4494-941E-8C8AC6B4DAEA"
+				"D1255541-E1CB-41A8-A3BD-31435D392BE7",
+				"CA809101-803A-4EE1-AB80-1CD25532480D",
+				"4041E259-9493-448D-AE48-8C9ACF83A82F",
+				"83590447-A361-4594-A6E1-9D6A67C25CC1"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

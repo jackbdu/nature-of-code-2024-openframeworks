@@ -30,9 +30,13 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"3D740D7F-4443-4F6D-8B38-E82029A699A6": {
-			"fileRef": "EDD59425-08E7-402E-8534-C27969140210",
-			"isa": "PBXBuildFile"
+		"2345967F-A1C6-4D1E-BF22-F9B74AF7AD26": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Pendulum.cpp",
+			"path": "src/Pendulum.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -41,7 +45,11 @@
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"CA95D2D6-B973-4CB6-A13C-58F44FB89F78": {
+		"D0B81C94-B9E1-40DF-9828-B309D6F4B7B9": {
+			"fileRef": "2345967F-A1C6-4D1E-BF22-F9B74AF7AD26",
+			"isa": "PBXBuildFile"
+		},
+		"D8C45A56-A57A-416D-8632-6A278E8C40A3": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -151,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"3D740D7F-4443-4F6D-8B38-E82029A699A6"
+				"D0B81C94-B9E1-40DF-9828-B309D6F4B7B9"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -245,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"EDD59425-08E7-402E-8534-C27969140210",
-				"CA95D2D6-B973-4CB6-A13C-58F44FB89F78"
+				"2345967F-A1C6-4D1E-BF22-F9B74AF7AD26",
+				"D8C45A56-A57A-416D-8632-6A278E8C40A3"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -305,14 +313,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"EDD59425-08E7-402E-8534-C27969140210": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Pendulum.cpp",
-			"path": "src/Pendulum.cpp",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

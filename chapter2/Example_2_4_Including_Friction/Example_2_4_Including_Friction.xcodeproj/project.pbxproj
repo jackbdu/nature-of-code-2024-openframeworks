@@ -30,20 +30,12 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"5438004F-6DAB-4532-A159-256664512010": {
+		"6676E946-85CE-42C8-9E0B-F7FC4C327C32": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Mover.h",
 			"path": "src/Mover.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"54EBD545-0F85-47F7-911B-DE09431EC360": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.cpp",
-			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -52,10 +44,6 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
-		},
-		"D84C8D77-481C-46A3-9CE1-C6A73D2E98FE": {
-			"fileRef": "54EBD545-0F85-47F7-911B-DE09431EC360",
-			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +147,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"D84C8D77-481C-46A3-9CE1-C6A73D2E98FE"
+				"F22E0DAC-2F32-4F64-9E13-A85591531C47"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +241,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"54EBD545-0F85-47F7-911B-DE09431EC360",
-				"5438004F-6DAB-4532-A159-256664512010"
+				"F7412343-9D55-496E-8AE7-CB85AF1FD065",
+				"6676E946-85CE-42C8-9E0B-F7FC4C327C32"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +301,18 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"F22E0DAC-2F32-4F64-9E13-A85591531C47": {
+			"fileRef": "F7412343-9D55-496E-8AE7-CB85AF1FD065",
+			"isa": "PBXBuildFile"
+		},
+		"F7412343-9D55-496E-8AE7-CB85AF1FD065": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.cpp",
+			"path": "src/Mover.cpp",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

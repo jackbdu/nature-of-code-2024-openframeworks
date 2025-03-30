@@ -3,6 +3,10 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"09D55A6B-C5F2-45DB-85D5-4FD204E2DF78": {
+			"fileRef": "4EB81244-2271-4E22-A6E9-2F54257D7856",
+			"isa": "PBXBuildFile"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -30,7 +34,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"3D4AE1A3-0C70-4839-8812-7D54A3F43E18": {
+		"4EB81244-2271-4E22-A6E9-2F54257D7856": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -38,7 +42,7 @@
 			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"AC9428A2-98BB-47A3-953D-2C442CB911E8": {
+		"B7D3FC7F-B6CB-44DE-A191-ABA79F79C25D": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -52,10 +56,6 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
-		},
-		"BF05E6AA-65FD-451A-87AE-0ADDC9E2027B": {
-			"fileRef": "3D4AE1A3-0C70-4839-8812-7D54A3F43E18",
-			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"BF05E6AA-65FD-451A-87AE-0ADDC9E2027B"
+				"09D55A6B-C5F2-45DB-85D5-4FD204E2DF78"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"3D4AE1A3-0C70-4839-8812-7D54A3F43E18",
-				"AC9428A2-98BB-47A3-953D-2C442CB911E8"
+				"4EB81244-2271-4E22-A6E9-2F54257D7856",
+				"B7D3FC7F-B6CB-44DE-A191-ABA79F79C25D"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

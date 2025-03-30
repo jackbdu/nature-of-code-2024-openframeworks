@@ -3,8 +3,8 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"0F332B75-E688-4C55-ABF0-0FCA82588F63": {
-			"fileRef": "CB8678BC-3FEC-48D9-9DD4-3086A57425D5",
+		"0AF87043-BB2D-46C1-9790-FB1595592623": {
+			"fileRef": "B306F9E0-FD13-45A7-AE00-95D078FC45D0",
 			"isa": "PBXBuildFile"
 		},
 		"191CD6FA2847E21E0085CBB6": {
@@ -34,20 +34,28 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"BB4B014C10F69532006C3DED": {
-			"children": [],
-			"isa": "PBXGroup",
-			"name": "addons",
-			"path": "../../../../addons",
-			"sourceTree": "<group>"
+		"90000C72-9C74-4381-9CAC-717F863625C9": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Walker.h",
+			"path": "src/Walker.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
-		"CB8678BC-3FEC-48D9-9DD4-3086A57425D5": {
+		"B306F9E0-FD13-45A7-AE00-95D078FC45D0": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Walker.cpp",
 			"path": "src/Walker.cpp",
 			"sourceTree": "SOURCE_ROOT"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../../addons",
+			"sourceTree": "<group>"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -151,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"0F332B75-E688-4C55-ABF0-0FCA82588F63"
+				"0AF87043-BB2D-46C1-9790-FB1595592623"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -245,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"CB8678BC-3FEC-48D9-9DD4-3086A57425D5",
-				"FA75C0D5-A125-4984-A9D6-AA6B5E520BA4"
+				"B306F9E0-FD13-45A7-AE00-95D078FC45D0",
+				"90000C72-9C74-4381-9CAC-717F863625C9"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -305,14 +313,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"FA75C0D5-A125-4984-A9D6-AA6B5E520BA4": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Walker.h",
-			"path": "src/Walker.h",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

@@ -30,7 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"37123A6C-281A-414A-961A-FCD49FFBDA93": {
+		"29684FB0-9D08-46CE-9410-396825002630": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -38,17 +38,17 @@
 			"path": "src/Walker.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"992E3712-37B7-4027-89E9-75AFB41A934F": {
+		"3438FB96-C76D-4CD4-B871-D3BF69416681": {
+			"fileRef": "9DE8B572-539D-49D2-A9FA-AAF852691ED3",
+			"isa": "PBXBuildFile"
+		},
+		"9DE8B572-539D-49D2-A9FA-AAF852691ED3": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
 			"name": "Walker.cpp",
 			"path": "src/Walker.cpp",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"B7C3AF08-E129-4994-B1F2-BC744BA2D92A": {
-			"fileRef": "992E3712-37B7-4027-89E9-75AFB41A934F",
-			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"B7C3AF08-E129-4994-B1F2-BC744BA2D92A"
+				"3438FB96-C76D-4CD4-B871-D3BF69416681"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"992E3712-37B7-4027-89E9-75AFB41A934F",
-				"37123A6C-281A-414A-961A-FCD49FFBDA93"
+				"9DE8B572-539D-49D2-A9FA-AAF852691ED3",
+				"29684FB0-9D08-46CE-9410-396825002630"
 			],
 			"isa": "PBXGroup",
 			"path": "src",

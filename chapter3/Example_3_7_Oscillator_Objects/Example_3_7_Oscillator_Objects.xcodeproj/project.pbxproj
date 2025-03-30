@@ -3,6 +3,14 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"157F304A-063E-46F3-AD0F-F99FE442F9E1": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Oscillator.h",
+			"path": "src/Oscillator.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -30,12 +38,16 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"2B7CB55D-5A2A-42C5-A04C-7FEABAA6B6BB": {
-			"explicitFileType": "sourcecode.c.h",
+		"482107B0-C9EE-4E72-AC10-52E4AAAF947B": {
+			"fileRef": "B910C4AC-01E3-4AD9-BB4F-5A30DF9F7CCC",
+			"isa": "PBXBuildFile"
+		},
+		"B910C4AC-01E3-4AD9-BB4F-5A30DF9F7CCC": {
+			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Oscillator.h",
-			"path": "src/Oscillator.h",
+			"name": "Oscillator.cpp",
+			"path": "src/Oscillator.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -44,10 +56,6 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
-		},
-		"D9285323-1C07-4A66-908B-5CB521FA9B70": {
-			"fileRef": "FDD0868F-604A-4748-B302-0ED1A2EF7B28",
-			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -151,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"D9285323-1C07-4A66-908B-5CB521FA9B70"
+				"482107B0-C9EE-4E72-AC10-52E4AAAF947B"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -245,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"FDD0868F-604A-4748-B302-0ED1A2EF7B28",
-				"2B7CB55D-5A2A-42C5-A04C-7FEABAA6B6BB"
+				"B910C4AC-01E3-4AD9-BB4F-5A30DF9F7CCC",
+				"157F304A-063E-46F3-AD0F-F99FE442F9E1"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -305,14 +313,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"FDD0868F-604A-4748-B302-0ED1A2EF7B28": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Oscillator.cpp",
-			"path": "src/Oscillator.cpp",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

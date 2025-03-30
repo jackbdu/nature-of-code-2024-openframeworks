@@ -30,7 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"28A7A4E6-44F8-4D15-8F02-5B26DC84DF9E": {
+		"47C23F6E-7A21-4B75-A589-FCB32D36155C": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -38,13 +38,9 @@
 			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"33D240AE-32BC-43F0-B56A-32ED4DB3972E": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
-			"sourceTree": "SOURCE_ROOT"
+		"646C2A4F-B918-4C85-A276-972538F21C9F": {
+			"fileRef": "47C23F6E-7A21-4B75-A589-FCB32D36155C",
+			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -52,6 +48,14 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"C860DFEC-7F57-4B37-A605-F52F0085F336": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -155,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"F8CC8B42-28D6-43E7-BD61-9C6D738A4D54"
+				"646C2A4F-B918-4C85-A276-972538F21C9F"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -249,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"28A7A4E6-44F8-4D15-8F02-5B26DC84DF9E",
-				"33D240AE-32BC-43F0-B56A-32ED4DB3972E"
+				"47C23F6E-7A21-4B75-A589-FCB32D36155C",
+				"C860DFEC-7F57-4B37-A605-F52F0085F336"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -309,10 +313,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"F8CC8B42-28D6-43E7-BD61-9C6D738A4D54": {
-			"fileRef": "28A7A4E6-44F8-4D15-8F02-5B26DC84DF9E",
-			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

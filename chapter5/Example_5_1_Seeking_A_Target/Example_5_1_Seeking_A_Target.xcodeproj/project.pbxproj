@@ -30,17 +30,13 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"54E90F86-A7E4-4C30-8CFE-40A9B2C72A99": {
-			"explicitFileType": "sourcecode.c.h",
+		"384E3C70-AA1A-48CB-A3C5-E478AE63CAB4": {
+			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Vehicle.h",
-			"path": "src/Vehicle.h",
+			"name": "Vehicle.cpp",
+			"path": "src/Vehicle.cpp",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"7E5EF4F3-A997-4ECE-B909-7C9BD4E7364E": {
-			"fileRef": "EB583D9D-E7D6-451E-928D-30E765EC1F52",
-			"isa": "PBXBuildFile"
 		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
@@ -48,6 +44,14 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"D8969803-C0C0-48CB-804A-5D0CD6F96E12": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.h",
+			"path": "src/Vehicle.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -151,7 +155,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"7E5EF4F3-A997-4ECE-B909-7C9BD4E7364E"
+				"EF6FC617-A708-4A9A-919F-BDF58229B66E"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -245,8 +249,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"EB583D9D-E7D6-451E-928D-30E765EC1F52",
-				"54E90F86-A7E4-4C30-8CFE-40A9B2C72A99"
+				"384E3C70-AA1A-48CB-A3C5-E478AE63CAB4",
+				"D8969803-C0C0-48CB-804A-5D0CD6F96E12"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -306,13 +310,9 @@
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
 		},
-		"EB583D9D-E7D6-451E-928D-30E765EC1F52": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Vehicle.cpp",
-			"path": "src/Vehicle.cpp",
-			"sourceTree": "SOURCE_ROOT"
+		"EF6FC617-A708-4A9A-919F-BDF58229B66E": {
+			"fileRef": "384E3C70-AA1A-48CB-A3C5-E478AE63CAB4",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

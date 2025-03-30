@@ -3,12 +3,20 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
-		"17260CDB-4B42-4D17-AFF4-7B51536C1521": {
+		"042C3EDC-A1F6-4FF1-A3E9-D96833CC6818": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Liquid.h",
-			"path": "src/Liquid.h",
+			"name": "Mover.h",
+			"path": "src/Mover.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"09E6EB56-AD79-4B4E-A38E-777C5677A28C": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Liquid.cpp",
+			"path": "src/Liquid.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"191CD6FA2847E21E0085CBB6": {
@@ -38,28 +46,12 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"325F1DB1-75BE-400D-BA7E-718E35541F04": {
+		"61A1A344-A9BD-4D9A-84AB-D591116C81D5": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Liquid.cpp",
-			"path": "src/Liquid.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"78BEB861-57F2-4095-BB90-91CB1D992B54": {
-			"fileRef": "E72BDC0F-1742-42EE-9C73-D964FD871CA3",
-			"isa": "PBXBuildFile"
-		},
-		"96A2AEEA-5BA0-4A89-A15D-F66B7C398F11": {
-			"fileRef": "325F1DB1-75BE-400D-BA7E-718E35541F04",
-			"isa": "PBXBuildFile"
-		},
-		"B87094D5-707C-4EF9-BCB6-BCBBEC1B4B75": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.h",
-			"path": "src/Mover.h",
+			"name": "Mover.cpp",
+			"path": "src/Mover.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
 		"BB4B014C10F69532006C3DED": {
@@ -68,6 +60,22 @@
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"BDAB79FA-27CF-4AA0-888E-A8DDD550E14F": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Liquid.h",
+			"path": "src/Liquid.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C516F47B-51E9-4074-B2ED-1292D957CE61": {
+			"fileRef": "09E6EB56-AD79-4B4E-A38E-777C5677A28C",
+			"isa": "PBXBuildFile"
+		},
+		"DD10CCB9-69CE-4151-9C86-49A447FFBF76": {
+			"fileRef": "61A1A344-A9BD-4D9A-84AB-D591116C81D5",
+			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -171,8 +179,8 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"96A2AEEA-5BA0-4A89-A15D-F66B7C398F11",
-				"78BEB861-57F2-4095-BB90-91CB1D992B54"
+				"C516F47B-51E9-4074-B2ED-1292D957CE61",
+				"DD10CCB9-69CE-4151-9C86-49A447FFBF76"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -266,10 +274,10 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"325F1DB1-75BE-400D-BA7E-718E35541F04",
-				"17260CDB-4B42-4D17-AFF4-7B51536C1521",
-				"E72BDC0F-1742-42EE-9C73-D964FD871CA3",
-				"B87094D5-707C-4EF9-BCB6-BCBBEC1B4B75"
+				"09E6EB56-AD79-4B4E-A38E-777C5677A28C",
+				"BDAB79FA-27CF-4AA0-888E-A8DDD550E14F",
+				"61A1A344-A9BD-4D9A-84AB-D591116C81D5",
+				"042C3EDC-A1F6-4FF1-A3E9-D96833CC6818"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -328,14 +336,6 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
-		},
-		"E72BDC0F-1742-42EE-9C73-D964FD871CA3": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Mover.cpp",
-			"path": "src/Mover.cpp",
-			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

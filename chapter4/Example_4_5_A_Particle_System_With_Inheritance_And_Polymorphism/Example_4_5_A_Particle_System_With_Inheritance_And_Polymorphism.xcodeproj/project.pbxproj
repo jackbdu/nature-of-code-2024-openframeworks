@@ -30,31 +30,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"2389804C-F42D-46F0-8C21-2704D3F0B3E6": {
-			"fileRef": "D402C0AA-0E97-47CE-A4D3-EE8AB39061D1",
-			"isa": "PBXBuildFile"
-		},
-		"26732194-D8B1-482F-A02C-21912E520395": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Emitter.cpp",
-			"path": "src/Emitter.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"33297862-6D45-4443-A36D-20D0C06FE0C6": {
-			"explicitFileType": "sourcecode.cpp.cpp",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Particle.cpp",
-			"path": "src/Particle.cpp",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"58B5BA49-C2A1-4C66-8D8F-081F9891AEAF": {
-			"fileRef": "26732194-D8B1-482F-A02C-21912E520395",
-			"isa": "PBXBuildFile"
-		},
-		"8EE420E9-B652-4EA5-97C0-68F3A0C2CFE2": {
+		"3F7EF7B0-D764-4DC4-8D0E-1032C1C4102F": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -62,7 +38,35 @@
 			"path": "src/Particle.h",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"AE22BFDF-DA9A-4D34-9102-33B6CF976979": {
+		"451A1F82-721E-4213-9EB5-5A685E89B493": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Confetti.cpp",
+			"path": "src/Confetti.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"6A47E5C1-58AF-43B4-9905-85A2F337A8DF": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Emitter.h",
+			"path": "src/Emitter.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8C4AC9B6-6B25-4C86-852F-EBDC03641037": {
+			"fileRef": "CCD54198-9902-4D39-AC21-CBF4EA07D65C",
+			"isa": "PBXBuildFile"
+		},
+		"9CDC7A50-2CE0-4F09-B907-E6CEB2B7E2E5": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Particle.cpp",
+			"path": "src/Particle.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"B2EC61D4-B5DE-4A24-BC04-30188EF7912A": {
 			"explicitFileType": "sourcecode.c.h",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -77,17 +81,17 @@
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
 		},
-		"D402C0AA-0E97-47CE-A4D3-EE8AB39061D1": {
+		"C8BAFEE1-3C2D-41A5-B22D-95052A7360CB": {
+			"fileRef": "451A1F82-721E-4213-9EB5-5A685E89B493",
+			"isa": "PBXBuildFile"
+		},
+		"CCD54198-9902-4D39-AC21-CBF4EA07D65C": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
-			"name": "Confetti.cpp",
-			"path": "src/Confetti.cpp",
+			"name": "Emitter.cpp",
+			"path": "src/Emitter.cpp",
 			"sourceTree": "SOURCE_ROOT"
-		},
-		"E26B0883-534C-415F-8A9E-C5EAD300043D": {
-			"fileRef": "33297862-6D45-4443-A36D-20D0C06FE0C6",
-			"isa": "PBXBuildFile"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -191,9 +195,9 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"2389804C-F42D-46F0-8C21-2704D3F0B3E6",
-				"58B5BA49-C2A1-4C66-8D8F-081F9891AEAF",
-				"E26B0883-534C-415F-8A9E-C5EAD300043D"
+				"C8BAFEE1-3C2D-41A5-B22D-95052A7360CB",
+				"8C4AC9B6-6B25-4C86-852F-EBDC03641037",
+				"ED2AE2E0-25F7-4A8D-8A60-AC9594C9C0EF"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -287,12 +291,12 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"D402C0AA-0E97-47CE-A4D3-EE8AB39061D1",
-				"AE22BFDF-DA9A-4D34-9102-33B6CF976979",
-				"26732194-D8B1-482F-A02C-21912E520395",
-				"E672D22D-3F86-4D25-80A7-3D0D4EC26887",
-				"33297862-6D45-4443-A36D-20D0C06FE0C6",
-				"8EE420E9-B652-4EA5-97C0-68F3A0C2CFE2"
+				"451A1F82-721E-4213-9EB5-5A685E89B493",
+				"B2EC61D4-B5DE-4A24-BC04-30188EF7912A",
+				"CCD54198-9902-4D39-AC21-CBF4EA07D65C",
+				"6A47E5C1-58AF-43B4-9905-85A2F337A8DF",
+				"9CDC7A50-2CE0-4F09-B907-E6CEB2B7E2E5",
+				"3F7EF7B0-D764-4DC4-8D0E-1032C1C4102F"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -352,13 +356,9 @@
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
 		},
-		"E672D22D-3F86-4D25-80A7-3D0D4EC26887": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Emitter.h",
-			"path": "src/Emitter.h",
-			"sourceTree": "SOURCE_ROOT"
+		"ED2AE2E0-25F7-4A8D-8A60-AC9594C9C0EF": {
+			"fileRef": "9CDC7A50-2CE0-4F09-B907-E6CEB2B7E2E5",
+			"isa": "PBXBuildFile"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

@@ -3,6 +3,10 @@
 	"classes": {},
 	"objectVersion": "54",
 	"objects": {
+		"0F3D00A3-A707-4784-8028-27AE879316ED": {
+			"fileRef": "57169A61-FDC3-46ED-B573-86E68DEB5AAF",
+			"isa": "PBXBuildFile"
+		},
 		"191CD6FA2847E21E0085CBB6": {
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -30,19 +34,7 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"5DC966D5-3131-4AC2-B934-159D20D116A7": {
-			"fileRef": "A902F4AC-D85A-4FEC-BB00-D88217C21740",
-			"isa": "PBXBuildFile"
-		},
-		"A5C25206-19E6-4E56-9585-3765ED8A9A00": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Box.h",
-			"path": "src/Box.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"A902F4AC-D85A-4FEC-BB00-D88217C21740": {
+		"57169A61-FDC3-46ED-B573-86E68DEB5AAF": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -159,7 +151,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"5DC966D5-3131-4AC2-B934-159D20D116A7"
+				"0F3D00A3-A707-4784-8028-27AE879316ED"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +245,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"A902F4AC-D85A-4FEC-BB00-D88217C21740",
-				"A5C25206-19E6-4E56-9585-3765ED8A9A00"
+				"57169A61-FDC3-46ED-B573-86E68DEB5AAF",
+				"FB66A7FF-F4D2-4BAD-9256-4F11D86D541B"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
@@ -313,6 +305,14 @@
 			"lastKnownFileType": "text.xcconfig",
 			"path": "Project.xcconfig",
 			"sourceTree": "<group>"
+		},
+		"FB66A7FF-F4D2-4BAD-9256-4F11D86D541B": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Box.h",
+			"path": "src/Box.h",
+			"sourceTree": "SOURCE_ROOT"
 		}
 	},
 	"openFrameworksProjectGeneratorVersion": "21",

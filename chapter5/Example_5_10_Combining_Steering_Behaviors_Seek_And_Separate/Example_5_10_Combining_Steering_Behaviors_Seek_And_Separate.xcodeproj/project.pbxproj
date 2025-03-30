@@ -30,7 +30,11 @@
 			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
 			"showEnvVarsInLog": "0"
 		},
-		"3EC0716A-7169-4FEF-886D-4BF69D0A8085": {
+		"46940BAF-7656-451D-93CA-321A3FFAF2FE": {
+			"fileRef": "784BA77C-B596-40F5-8C6F-A6DBCDA5F5A9",
+			"isa": "PBXBuildFile"
+		},
+		"784BA77C-B596-40F5-8C6F-A6DBCDA5F5A9": {
 			"explicitFileType": "sourcecode.cpp.cpp",
 			"fileEncoding": "4",
 			"isa": "PBXFileReference",
@@ -38,24 +42,20 @@
 			"path": "src/Vehicle.cpp",
 			"sourceTree": "SOURCE_ROOT"
 		},
-		"8AC0443C-2916-451C-9750-4AFFFF229C01": {
-			"explicitFileType": "sourcecode.c.h",
-			"fileEncoding": "4",
-			"isa": "PBXFileReference",
-			"name": "Vehicle.h",
-			"path": "src/Vehicle.h",
-			"sourceTree": "SOURCE_ROOT"
-		},
-		"ACA5982F-9CFC-4C1E-8F48-5503C55C0736": {
-			"fileRef": "3EC0716A-7169-4FEF-886D-4BF69D0A8085",
-			"isa": "PBXBuildFile"
-		},
 		"BB4B014C10F69532006C3DED": {
 			"children": [],
 			"isa": "PBXGroup",
 			"name": "addons",
 			"path": "../../../../addons",
 			"sourceTree": "<group>"
+		},
+		"D808C57E-B013-47F0-84AF-6D4661A18E51": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Vehicle.h",
+			"path": "src/Vehicle.h",
+			"sourceTree": "SOURCE_ROOT"
 		},
 		"E42962A92163ECCD00A6A9E2": {
 			"alwaysOutOfDate": "1",
@@ -159,7 +159,7 @@
 			"files": [
 				"E4B69E200A3A1BDC003C02F2",
 				"E4B69E210A3A1BDC003C02F2",
-				"ACA5982F-9CFC-4C1E-8F48-5503C55C0736"
+				"46940BAF-7656-451D-93CA-321A3FFAF2FE"
 			],
 			"isa": "PBXSourcesBuildPhase",
 			"runOnlyForDeploymentPostprocessing": "0"
@@ -253,8 +253,8 @@
 				"E4B69E1D0A3A1BDC003C02F2",
 				"E4B69E1E0A3A1BDC003C02F2",
 				"E4B69E1F0A3A1BDC003C02F2",
-				"3EC0716A-7169-4FEF-886D-4BF69D0A8085",
-				"8AC0443C-2916-451C-9750-4AFFFF229C01"
+				"784BA77C-B596-40F5-8C6F-A6DBCDA5F5A9",
+				"D808C57E-B013-47F0-84AF-6D4661A18E51"
 			],
 			"isa": "PBXGroup",
 			"path": "src",
